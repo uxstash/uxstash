@@ -1,4 +1,4 @@
-# UxstashGithubIo
+# Uxstash
 
 ## Installation
 
