@@ -1,19 +1,32 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+assets:
+  sources:
+    - _assets/fonts
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _vendor/
 
-# Site settings
-title: UX Stash
-email: hello@uxstash.io
-description: > # this means to ignore newlines until "baseurl:"
-  UX links and goodies
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://uxstash.io/" # the base hostname & protocol for your site
-twitter_username: ux_stash
-github_username:  uxstash
+baseurl: /
 
-# Build settings
-markdown: kramdown
+exclude:
+  - .bowerrc
+  - .travis.yml
+  - bin/*
+  - bower.json
+  - circle.yml
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+
+ga_analytics: UA-XXXXXXXX-X
+
+gems:
+  - jekyll-assets
+  - jekyll-sitemap
+
+name: uxstash_github_io
+
+permalink: pretty
+
+url: # add site url
