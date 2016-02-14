@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -21,6 +21,7 @@
 
   <link rel="apple-touch-icon" href="{% asset_path apple-touch-icon.png %}">
 
+  {% stylesheet style1 %}
   {% stylesheet application %}
 </head>
 <body>
@@ -29,10 +30,20 @@
       browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>
       to improve your experience.</p>
   <![endif]-->
+  <div class="">
+    <div class="">
+      <div class="">
+        <button id="menu-toggle" class="menu-toggle"><span>Menu</span></button>
+        <div id="theSidebar" class="sidebar">
+          <button class="close-button fa fa-fw fa-close"></button>
+        </div>
+      </div>
+      <main class="main" role="main">
+        {{ content }}
+      </main>
+    </div>
+  </div>
 
-  <main role="main">
-    {{ content }}
-  </main>
 
   {% javascript vendor %}
   {% javascript application %}
