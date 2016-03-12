@@ -1,0 +1,53 @@
+- title: 80/20 rule
+  category: Strategy
+  description: "The Pareto principle (also known as the 80–20 rule, the law of the vital few, and the principle of factor sparsity) states that, for many events, roughly 80% of the effects come from 20% of the causes."
+  url: http://northerndiv.com/improving-ux-80-20-rule/
+  tag:
+
+- title: Accessibility Analysis
+  category: Development
+  description: "A study to measure how the website is easy for everyone to use, regardless of their special needs. It could be done by specific tools, following the W3C guideline or even by an usability test."
+  url: https://www.w3.org/wiki/Accessibility_testing
+  tag:
+
+- title: Adaptive Web Design (AWD)
+  category: Development
+  description: "Adaptive websites adapt to the width of the browser at a specific points. In other words, the website is only concerned about the browser being a specific width, at which point it adapts the layout."
+  url: http://www.sitepoint.com/moving-beyond-responsive-web-adaptive-web/
+  tag:
+
+- title: Aesthetic-Usability Effect
+  category: Design
+  description: "The aesthetic usability effect is where a user will perceive an attractive product as easier to use than an ugly one."
+  url: http://usabilityfriction.com/2010/03/30/aesthetic-usability-effect/
+  tag:
+
+- title:
+  category:
+  description:
+  url:
+  tag:
+
+- title:
+  category:
+  description:
+  url:
+  tag:
+
+- title:
+  category:
+  description:
+  url:
+  tag:
+
+- title:
+  category:
+  description:
+  url:
+  tag:
+
+- title:
+  category:
+  description:
+  url:
+  tag:
