@@ -22,29 +22,421 @@
   url: http://usabilityfriction.com/2010/03/30/aesthetic-usability-effect/
   tag:
 
-# - title:
-#   category:
-#   description:
-#   url:
-#   tag:
+- title: Affordance
+  category: Design
+  description: "A situation where an object’s sensory characteristics intuitively imply its functionality and use."
+  url: http://www.uxbooth.com/articles/foundations-of-affordances/
 
-# - title:
-#   category:
-#   description:
-#   url:
-#   tag:
+- title: Agile
+  category: Management
+  description: "Agile software development is a set of principles for software development in which requirements and solutions evolve through collaboration between self-organizing, cross-functional teams. "
+  url: https://agilealliance.org/
 
-# - title:
-#   category:
-#   description:
-#   url:
-#   tag:
+- title: Anchoring
+  category: Design
+  description: "Incorporating a test-driven, semantic, live style guide into your process to establish, enforce, and evolve your design language."
+  url: https://uxmag.com/articles/anchoring-your-design-language-in-a-live-style-guide
 
-# - title:
-#   category:
-#   description:
-#   url:
-#   tag:
+- title: Atomic Design
+  category: Design
+  description: "A methodology for creating design systems."
+  url: http://bradfrost.com/blog/post/atomic-web-design/
+
+- title: Brainstorming
+  category: Management
+  description: "Brainstorming is a group creativity technique by which efforts are made to find a conclusion for a specific problem by gathering a list of ideas spontaneously contributed by its members."
+  url: https://en.wikipedia.org/wiki/Brainstorming
+
+- title: Call to Action
+  category: Architecture
+  description: "In marketing, a call to action (CTA) is an instruction to the audience to provoke an immediate response, usually using an imperative verb such as “call now”, “find out more” or “visit a store today”."
+  url: https://en.wikipedia.org/wiki/Call_to_action_(marketing)
+
+- title: Card Sorting
+  category: Strategy
+  description: "Card sorting is a simple technique in user experience design where a group of subject experts or “users”, however inexperienced with design, are guided to generate a category tree or folksonomy. It is a useful approach for designing information architecture, workflows, menu structure, or web site navigation paths."
+  url: https://en.wikipedia.org/wiki/Card_sorting
+
+- title: Chunking
+  category: Architecture
+  description: "Chunking is a method of presenting information which splits concepts into small pieces or “chunks” of information to make reading and understanding faster and easier. Chunking is especially useful for material presented on the web because readers tend to scan for specific information on a web page rather than read the page sequentially."
+  url: https://en.wikipedia.org/wiki/Chunking_(writing)
+
+- title: Cognitive Load
+  category: Management
+  description: "The amount of mental processing power needed to use your site, affects how easily users find content and complete tasks."
+  url: https://www.nngroup.com/articles/minimize-cognitive-load/
+
+- title: Constraint
+  category: Development
+  description: "The concept of constraints in design can be defined as the practice of limiting user actions on a system. Constraints limit the actions that can be performed by the user, thus increasing the usability of the design and reducing the likelihood of operator error."
+  url: http://www.uxbooth.com/articles/breaking-constraints/
+
+- title: Content Strategy
+  category: Strategy
+  description: "Content strategy refers to the planning, development, and management of content—written or in other media. The term is particularly common in web development since the late 1990s. It is a recognized field in user experience design, but also draws interest from adjacent communities such as content management, business analysis, and technical communication."
+  url: https://en.wikipedia.org/wiki/Content_strategy
+
+- title: Cooperative Principle
+  category: Management
+  description: "People relate to computer interactions much like human conversation, so observing normal conversational rules is a useful design tactic."
+  url: http://uxmag.com/articles/ux-design-as-two-way-conversation
+
+- title: Color Theory
+  category: Design
+  description: "A body of practical guidance to color mixing and the visual effects of a specific color combination."
+  url: https://www.usertesting.com/blog/2014/12/02/color-ux-conversion-rates/
+
+- title: Competitive Analysis
+  category: Strategy
+  description: "Data on what works well or poorly on other sites saves you from implementing useless features and guides UX investments to features that your users need."
+  url: https://www.nngroup.com/articles/competitive-usability-evaluations/
+
+- title: Content Audit
+  category: Management
+  description: "The activity of checking all of the content on a website, and compiling it into a big list."
+  url: http://uxmastery.com/how-to-conduct-a-content-audit/
+
+- title: Consumer Journey Map
+  category: Architecture
+  description: "A customer journey map tells the story of the customer’s experience: from initial contact, through the process of engagement and into a long-term relationship."
+  url: http://www.uxmatters.com/mt/archives/2011/09/the-value-of-customer-journey-maps-a-ux-designers-personal-journey.php
+
+- title: Ecosystem Map
+  category: Strategy
+  description: "An ecosystem is the term given to a set of products, services, and people that function together in a symbiotic way. "
+  url: http://www.uxbooth.com/articles/designing-digital-strategies-part-1-cartography/
+
+- title: Ethnography
+  category: Strategy
+  description: "Ethnographic field research involves the study of groups and people as they go about their everyday lives."
+  url: http://www.uxmatters.com/mt/archives/2010/06/ethnography-in-ux.php
+
+- title: Eye Tracking
+  category: Design
+  description: "Eye-tracking research provides designers with a blueprint of sorts to guide them on the priorities with which site visitors generally absorb the information on any given site."
+  url: https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/
+
+- title: Features Roadmap
+  category: Management
+  description: "A plan for the future actions of the team. It could be on a spreadsheet, post its or timeline."
+  url: http://www.userzoom.com/agile-ux-research-and-testing/getting-a-plan-together-creating-a-ux-roadmap-for-your-a-team/
+
+- title: Fitts’ Law
+  category: Design
+  description: "This scientific law predicts that the time required to rapidly move to a target area is a function of the ratio between the distance to the target and the width of the target."
+  url: https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/fitts-s-law
+
+- title: Five Hat Racks
+  category: Architecture
+  description: "The Five Hat Racks was first developed by Richard Saul Wurman in his book Information Anxiety. In a nutshell, there are 5 ways to organise information: By Location, Alphabet, Time, Category and Continuum."
+  url: http://usabilityfriction.com/2009/09/29/five-hat-racks/
+
+- title: Flexibility-Usability Tradeoff
+  category: Management
+  description: "The flexibility-usability tradeoff is a design principle maintaining that, as the flexibility of a system increases, its usability decreases. The tradeoff exists because accommodating flexibility requires satisfying a larger set of requirements, which results in complexity and usability compromises"
+  url: http://crosssquare.co.uk/flexibility-usability-tradeoff/
+
+- title: Focus Group
+  category: Strategy
+  description: "A form of qualitative research in which a group of people are asked about their perceptions, opinions, beliefs, and attitudes towards a product, service, concept, advertisement, idea, or packaging."
+  url: https://www.nngroup.com/articles/focus-groups/
+
+- title: Fogg’s Behaviour Model
+  category: Strategy
+  description: "The Fogg Behavior Model shows that three elements must converge at the same moment for a behavior to occur: Motivation, Ability, and Trigger. When a behavior does not occur, at least one of those three elements is missing. "
+  url: http://www.behaviormodel.org/
+
+- title: The Fold
+  category: Design
+  description: "What is visible on the page without requiring any action is what encourages us to scroll."
+  url: https://www.nngroup.com/articles/page-fold-manifesto/
+
+- title: Gestalt Laws of Grouping
+  category: Design
+  description: "The Principles of grouping (or Gestalt laws of grouping) are a set of principles in psychology, first proposed by Gestalt psychologists to account for the observation that humans naturally perceive objects as organized patterns and objects."
+  url: https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/
+
+- title: Graceful Degradation
+  category: Development
+  description: "The ability of a computer, machine, electronic system or network to maintain limited functionality even when a large portion of it has been destroyed or rendered inoperative. The purpose of graceful degradation is to prevent catastrophic failure."
+  url: http://zurb.com/word/graceful-degradation
+
+- title: Grid
+  category: Design
+  description: "In graphic design, a grid is a structure (usually two-dimensional) made up of a series of intersecting straight (vertical, horizontal, and angular) or curved guide lines used to structure content."
+  url: http://www.creativebloq.com/web-design/grid-theory-41411345
+
+- title: Heuristic Evaluation
+  category: Design
+  description: "A usability inspection method for computer software that helps to identify usability problems in the user interface (UI) design. It specifically involves evaluators examining the interface and judging its compliance with recognized usability principles (the “heuristics”)."
+  url: https://www.nngroup.com/articles/ten-usability-heuristics/
+
+- title: Hick’s Law
+  category: Development
+  description: "Hick's law, or the Hick–Hyman Law, named after British and American psychologists William Edmund Hick and Ray Hyman, describes the time it takes for a person to make a decision as a result of the possible choices he or she has: increasing the number of choices will increase the decision time logarithmically."
+  url: https://www.smashingmagazine.com/2012/02/redefining-hicks-law/
+
+- title: Hook Model
+  category: Strategy
+  description: "A four-step process companies use to hook users and form habits among them. The four parts of the model include: trigger, action, investment and variable reward."
+  url: https://studio.uxpin.com/blog/hook-users-habit-forming-ux-design/
+
+- title: Information Architecture
+  category: Architecture
+  description: "Information architecture (IA) is the structural design of shared information environments; the art and science of organizing and labelling websites, intranets, online communities and software to support usability and findability."
+  url: http://www.usability.gov/what-and-why/information-architecture.html
+
+- title: Jira
+  category: Management
+  description: "Jira is a proprietary issue tracking product, developed by Atlassian. It provides bug tracking, issue tracking, and project management functions."
+  url: https://www.atlassian.com/software/jira
+
+- title: Kano Model
+  category: Strategy
+  description: "The Kano model is a theory of product development and customer satisfaction developed in the 1980s by Professor Noriaki Kano, which classifies customer preferences into five categories."
+  url: http://www.kanomodel.com/
+
+- title: Key Performance Indicators (KPI)
+  category: Strategy
+  description: "A Key Performance Indicator is a measurable value that demonstrates how effectively a company is achieving key business objectives. Organizations use KPIs at multiple levels to evaluate their success at reaching targets."
+  url: http://www.ap-institute.com/what-is-a-key-performance-indicator.aspx
+
+- title: Lean UX
+  category: Strategy
+  description: "Lean UX is a set of principles that may be used to guide you to better, more desirable solutions for users. It's not a process in which each tool is rigidly applied."
+  url: https://www.smashingmagazine.com/2011/03/lean-ux-getting-out-of-the-deliverables-business/
+
+- title: Legibility vs Readability
+  category: Design
+  description: "Users won’t read web content unless the text is clear, the words and sentences are simple, and the information is easy to understand. You can test all of this."
+  url: http://webdesign.tutsplus.com/articles/typographic-readability-and-legibility--webdesign-12211
+
+- title: Mapping
+  category: Architecture
+  description: "One page – we’ll get an end-to-end view of a users experience in context, which we can then use to understand, justify and prioritise our approach."
+  url: http://uxmastery.com/ux-marks-the-spot-mapping-the-user-experience/
+
+- title: Mental/Conceptual Models
+  category: Design
+  description: "What users believe they know about a UI strongly impacts how they use it. Mismatched mental models are common, especially with designs that try something new."
+  url: https://www.nngroup.com/articles/mental-models/
+
+- title: Metrics Analysis
+  category: Strategy
+  description: "Web metrics are a treasure trove of UX data and insights. Used properly, metrics are the ultimate behavioral analysis tool; the trick is to know how to read the data and what it means."
+  url: http://www.dtelepathy.com/ux-metrics/
+
+- title: Minimum Viable Product (MVP)
+  category: Management
+  description: "In product development, the minimum viable product (MVP) is a product which has just enough features to gather validated learning about the product and its continued development."
+  url: http://scalemybusiness.com/the-ultimate-guide-to-minimum-viable-products/
+
+- title: Mobile-First Design
+  category: Design
+  description: "By starting mobile first with your responsive website you are able to make the tough decisions about the content."
+  url: http://bradfrost.com/blog/mobile/the-many-faces-of-mobile-first/
+
+- title: Moodboards
+  category: Strategy
+  description: "A collaborative collection of assets and patterns that will eventually evolve into a product's visual style guide"
+  url: http://www.protofuse.com/blog/how-web-design-mood-board-impacts-ux/
+
+- title: Multivariate Testing
+  category: Management
+  description: "A technique for testing a hypothesis in which multiple variables are modified. The goal of multivariate testing is to determine which combination of variations performs the best out of all of the possible combinations"
+  url: https://www.optimizely.com/resources/multivariate-testing/
+
+- title: Ockham’s Razor
+  category: Architecture
+  description: "Occam’s Razor, put simply, states: “the simplest solution is almost always the best.” It’s a problem-solving principle arguing that simplicity is better than complexity."
+  url: http://speckyboy.com/2015/05/21/taking-the-occam-razor-approach-to-design/
+
+- title: Omni-channel UX
+  category: Strategy
+  description: "Multichannel sales approach that provides the customer with an integrated shopping experience. The customer can be shopping online from a desktop or mobile device, or by telephone, or in a bricks and mortar store and the experience would be seamless."
+  url: https://uxmag.com/articles/5-elements-of-omni-channel-user-experiences
+
+- title: Paper Prototyping
+  category: Development
+  description: "Variation of usability testing where representative users perform realistic tasks by interacting with a paper version of the interface that is manipulated by a person 'playing computer,' who doesn't explain how the interface is intended to work."
+  url: http://www.paperprototyping.com/what.html
+
+- title: Pattern Library
+  category: Development
+  description: "A formal way of documenting a solution to a common design problem. The idea was introduced by the architect Christopher Alexander for use in urban planning and building architecture, and has been adapted for various other disciplines, including teaching and pedagogy, development organization and process, and software architecture and design."
+  url: http://uxmovement.com/resources/4-best-design-pattern-libraries/
+
+- title: Participatory Design
+  category: Management
+  description: "Involvement of the stakeholders, designers, researchers and end-users in the design process in order to help ensure that the end product meets the needs of its intended user base."
+  url: http://www.uxpassion.com/blog/participatory-design-what-makes-it-great/
+
+- title: Personas
+  category: Strategy
+  description: "In user-centered design and marketing, personas are fictional characters created to represent the different user types that might use a site, brand, or product in a similar way."
+  url: https://uxmag.com/articles/personas-the-foundation-of-a-great-user-experience
+
+- title: Progressive Disclosure
+  category: Design
+  description: "Progressive disclosure is an interaction design technique often used in human computer interaction to help maintain the focus of a user's attention by reducing clutter, confusion, and cognitive workload. This improves usability by presenting only the minimum data required for the task at hand."
+  url: https://en.wikipedia.org/wiki/Progressive_disclosure
+
+- title: Progressive Enhancement
+  category: Development
+  description: "Progressive enhancement is a strategy for web design that emphasizes accessibility, semantic HTML markup, and external stylesheet and scripting technologies."
+  url: https://en.wikipedia.org/wiki/Progressive_enhancement
+
+- title: Quantitative Survey
+  category: Strategy
+  description: "Quantitative research is about asking people for their opinions in a structured way so that you can produce hard facts and statistics to guide you. To get reliable statistical results, it's important to survey people in fairly large numbers and to make sure they are a representative sample of your target market."
+  url: http://www.measuringu.com/blog/five-hard-quant.php
+
+- title: Rapid Prototyping
+  category: Development
+  description: "A cyclycal approach towards design that focuses on quickly creating a functional, interactive prototype of a website or web application."
+  url: https://www.smashingmagazine.com/2010/06/design-better-faster-with-rapid-prototyping/
+
+- title: Prototypes
+  category: Development
+  description: "A simulation of the final product. It’s like an interactive mockup that can have any degree of fidelity. The main purpose of building prototypes is to test whether or not the flow of the product is smooth and consistent."
+  url: https://uxmag.com/articles/what-a-prototype-is-and-is-not
+
+- title: Reciprocity
+  category: Strategy
+  description: "Humans tend to return good deeds: use this social psychology law in user interface design to gain users’ trust and motivate engagement with your site or app."
+  url: https://www.nngroup.com/articles/reciprocity-principle/
+
+- title: Recognition over Recall
+  category: Design
+  description: "Showing users things they can recognize improves usability over needing to recall items from scratch because the extra context helps users retrieve information from memory."
+  url: http://ui-patterns.com/patterns/Recognition-over-recall
+
+- title: Responsive Web Design
+  category: Design
+  description: "Responsive web design (RWD) is an approach to web design aimed at crafting sites to provide an optimal viewing and interaction experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from desktop computer monitors to mobile phones)."
+  url: http://alistapart.com/article/responsive-web-design
+
+- title: Signal-to-Noise Ratio
+  category: Architecture
+  description: "Similar to ‘Interference Effects’, this is a measure of how much relevant to irrelevant content you have on a page. More ‘signal’ and less ‘noise’ is better."
+  url: http://www.doctordisruption.com/design/principles-of-design-58-signal-to-noise-ratio/
+
+- title: Sitemap
+  category: Architecture
+  description: "A site map (or sitemap) is a list of pages of a web site accessible to crawlers or users. It can be either a document in any form used as a planning tool for Web design, or a Web page that lists the pages on a Web site, typically organized in hierarchical fashion."
+  url: https://support.google.com/webmasters/answer/156184?hl=en
+
+- title: Sketch App
+  category: Design
+  description: "Sketch is built for modern graphic designers, and it shows in every fibre of the app. From a flexible workflow with support for Multiple Pages and Artboards."
+  url: https://www.sketchapp.com
+
+- title: Sketches
+  category: Architecture
+  description: "Just like your thoughts and ideas, sketches are in a constant state of flux, evolving and morphing as you reach a potential solution. Don’t think that you have to be able to draw in order to sketch, although having some experience with it does help."
+  url: https://www.smashingmagazine.com/2011/12/the-messy-art-of-ux-sketching/
+
+- title: Skeuomorphism
+  category: Design
+  description: "The design concept of making items represented resemble their real-world counterparts. Skeuomorphism is commonly used in many design fields, including user interface (UI) and Web design, architecture, ceramics and interior design."
+  url: https://uxmag.com/articles/does-skeuomorphic-design-matter
+
+- title: Stakeholders Interviews
+  category: Strategy
+  description: "Stakeholder Interviews are conversations an individual conducts with his or her key stakeholder: customers, bosses, subordinates or peers both within and outside the organization. The interviews allow you to step into the shoes of your interviewees and see your role through the eyes of these stakeholders."
+  url: http://www.uxmatters.com/mt/archives/2007/09/conducting-successful-interviews-with-project-stakeholders.php
+
+- title: Storyboards
+  category: Strategy
+  description: "A storyboard is a technique for illustrating an interaction between a person and a product (or multiple people and multiple products) in narrative format, which includes a series of drawings, sketches, or pictures and sometimes words that tell a story."
+  url: http://www.fastcodesign.com/1672917/the-8-steps-to-creating-a-great-storyboard
+
+- title: Style Tiles
+  category: Design
+  description: "Style Tiles are a design deliverable consisting of fonts, colors and interface elements that communicate the essence of a visual brand for the web."
+  url: http://styletil.es
+
+- title: Styleguides
+  category: Design
+  description: "A style guide (or manual of style) is a set of standards for the writing and design of documents, either for general use or for a specific publication, organization, or field. (It is often called a style sheet, though that term has other meanings.)"
+  url: http://styleguides.io
+
+- title: Task Analysis
+  category: Management
+  description: "Task analysis is a step-by-step analysis of the users’ task, from their perspective."
+  url: https://searchenginewatch.com/sew/how-to/2336547/task-analysis-the-key-ux-design-step-everyone-skips
+
+- title: Taxonomies
+  category: Architecture
+  description: "An exploration around multiple ways to categorize and structure content and data."
+  url: http://www.enterprise-knowledge.com/taxonomy-consulting-and-the-importance-of-ux-design/
+
+- title: Think-Aloud Protocol
+  category: Strategy
+  description: "Think-aloud protocol (or thinking aloud; also talk-aloud protocol) is a protocol used to gather data in usability testing in product design and development, in psychology and a range of social sciences (e.g., reading, writing, translation research, decision making, and process tracing)."
+  url: https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/
+
+- title: URL-First Design
+  category: Architecture
+  description: "URLS should be designed in the early stages of website development as users must be able to read, guess and edit them, and it helps designers to define site structure."
+  url: http://flywebmedia.com/url-first-design/
+
+- title: Usability
+  category: Development
+  description: "Web usability is the ease of use of a website. Some broad goals of usability are the presentation of information and choices in a clear and concise way, a lack of ambiguity and the placement of important items in appropriate areas. "
+  url: http://www.usability.gov
+
+- title: Usability Test
+  category: Management
+  description: "Usability testing is the best way to understand how real users experience your website or application. Unlike interviews or focus groups that attempt to get users to accurately self-report their own behavior or preferences, a well-designed user test measures actual performance on mission-critical tasks."
+  url: http://www.usabilityfirst.com/usability-methods/usability-testing/
+
+- title: Use Cases and Scenarios
+  category: Management
+  description: "List of actions or event steps, typically defining the interactions between a role (known in the Unified Modeling Language as an actor) and a system, to achieve a goal."
+  url: https://en.wikipedia.org/wiki/Use_case
+
+- title: User-Centered Design (UCD)
+  category: Strategy
+  description: "The design is based upon an explicit understanding of users, tasks and environments. Users are involved throughout design and development. The design is driven and refined by user-centered evaluation. The process is iterative."
+  url: https://en.wikipedia.org/wiki/User-centered_design
+
+- title: User Flow
+  category: Management
+  description: "A user flow is a collection of Web pages that define a logical task. It consists of a number of steps that need to be performed in order to complete the task. For example, a booking user flow might have the following defined steps:"
+  url: https://studio.uxpin.com/blog/creating-perfect-user-flows-for-smooth-ux/
+
+- title: User Stories
+  category: Management
+  description: "User stories are part of an agile approach that helps shift the focus from writing about requirements to talking about them. All agile user stories include a written sentence or two and, more importantly, a series of conversations about the desired functionality."
+  url: https://www.mountaingoatsoftware.com/agile/user-stories
+
+- title: User Testing
+  category: Management
+  description: "Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users. This can be seen as an irreplaceable usability practice, since it gives direct input on how real users use the system"
+  url: https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/
+
+- title: Value Proposition
+  category: Strategy
+  description: "A value proposition is a promise of value to be delivered and acknowledged and a belief from the customer that value will be delivered and experienced. A value proposition can apply to an entire organization, or parts thereof, or customer accounts, or products or services."
+  url: https://en.wikipedia.org/wiki/Value_proposition
+
+- title: Visual Weight
+  category: Design
+  description: "The notion that design elements have varied weights; that is, some objects, even on a two-dimensional medium, can appear to be heavier than others. Visual weight is a powerful concept that allows us to create visual hierarchy, symmetry, balance, and harmony in designs."
+  url: https://www.smashingmagazine.com/2014/12/design-principles-visual-weight-direction/
+
+- title: Web Accessibility
+  category: Development
+  description: "Web accessibility refers to the inclusive practice of removing barriers that prevent interaction with, or access to websites, by people with disabilities. When sites are correctly designed, developed and edited, all users have equal access to information and functionality."
+  url: https://en.wikipedia.org/wiki/Web_accessibility
+
+- title: Wireframes
+  category: Development
+  description: "A website wireframe, also known as a page schematic or screen blueprint, is a visual guide that represents the skeletal framework of a website."
+  url: https://en.wikipedia.org/wiki/Website_wireframe
+
 
 # - title:
 #   category:
