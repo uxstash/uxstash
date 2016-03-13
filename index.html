@@ -16,10 +16,10 @@ description: ""
     {% assign stash_entry = stash_hash[1] %}
     <a class="grid__item" href="#">
       <h2 class="title title--preview">{{ stash_entry.stash }}</h2>
-      <h3>{{ stash_entry.url | size }} stashes</h3>
       <div class="loader"></div>
       <span class="category">{{ stash_entry.category }}</span>
       <div class="meta meta--preview">
+      {{ stash_entry.url | size }} stashes
       </div>
     </a>
     {% endfor %}
