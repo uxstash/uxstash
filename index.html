@@ -12,33 +12,33 @@ description: ""
         <span class="dropdown">Popular</span>
       </div>
     </header>
-    {% for stash in site.data.stashes %}
+    {% for stash_hash in site.data.stashes %}
+    {% assign stash_entry = stash_hash[1] %}
     <a class="grid__item" href="#">
-      <h2 class="title title--preview">{{ stash.title }}</h2>
+      <h2 class="title title--preview">{{ stash_entry.stash }}</h2>
+      <h3>{{ stash_entry.url | size }} stashes</h3>
       <div class="loader"></div>
-      <span class="category">{{ stash.category }}</span>
+      <span class="category">{{ stash_entry.category }}</span>
       <div class="meta meta--preview">
-        <img class="meta__avatar" src="{% asset_path authors/1.png %}" alt="author01" />
-        <span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span>
-        <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span>
       </div>
     </a>
     {% endfor %}
   </section>
   <section class="content">
     <div class="scroll-wrap">
-      {% for stash in site.data.stashes %}
+      {% for stash_hash in site.data.stashes %}
+      {% assign stash_entry = stash_hash[1] %}
       <article class="content__item">
-        <span class="category category--full">{{ stash.category }}</span>
-        <h2 class="title title--full">{{ stash.title }}</h2>
+        <span class="category category--full">{{ stash_entry.category }}</span>
+        <h2 class="title title--full">{{ stash_entry.stash }}</h2>
         <div class="meta meta--full">
-          <img class="meta__avatar" src="{% asset_path authors/1.png %}" alt="author01" />
-          <span class="meta__author">Matthew Walters</span>
-          <span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span>
-          <span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span>
         </div>
-        <p>{{ stash.description }}</p>
-        <p><a href="{{ stash.url }}">{{ stash.url }}</a></p>
+        <p>{{ stash_entry.description }}</p>
+        <ol>
+        {% for stash_url in stash_entry.url %}
+        <li><a href="{{ stash_url }}">{{ stash_url }}</a></li>
+        {% endfor %}
+        </ol>
       </article>
       {% endfor %}
     </div>

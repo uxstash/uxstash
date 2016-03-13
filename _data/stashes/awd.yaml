@@ -1,0 +1,6 @@
+stash: Adaptive Web Design (AWD)
+category: Development
+description: "Adaptive websites adapt to the width of the browser at a specific points. In other words, the website is only concerned about the browser being a specific width, at which point it adapts the layout."
+tag:
+url:
+  - http://www.sitepoint.com/moving-beyond-responsive-web-adaptive-web/
