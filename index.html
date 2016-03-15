@@ -19,7 +19,12 @@ description: ""
       <div class="loader"></div>
       <span class="category">{{ stash_entry.category }}</span>
       <div class="meta meta--preview">
-      {{ stash_entry.url | size }} stashes
+      {{ stash_entry.url | size }}
+        {% if stash_entry.url.size == 1  %}
+          stash
+          {% else %}
+          stashes
+        {% endif %}
       </div>
     </a>
     {% endfor %}
