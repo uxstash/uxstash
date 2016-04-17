@@ -31,7 +31,7 @@ exclude:
   - README.md
   - vendor/
 
-ga_analytics: UA-XXXXXXXX-X
+ga_analytics: UA-76489278-1
 
 gems:
   - jekyll-assets
@@ -40,4 +40,3 @@ gems:
 name: uxstash_github_io
 
 permalink: pretty
-
