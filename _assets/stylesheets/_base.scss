@@ -18,8 +18,8 @@ $sansserif: 'brandon-grotesque', Helvetica, sans-serif;
 .clearfix:after { clear: both; }
 
 body {
-  background: $color_secondary;
-  color: #7b7b7b;
+  background: #fff;
+  color: $gray;
   font-weight: 400;
   font-size: 16px;
   font-family: $sansserif;
@@ -52,7 +52,6 @@ button:focus {
 
 /* Sidebar */
 .sidebar {
-  text-align: center;
   background: $color_primary;
   z-index: 1000;
   position: fixed;
@@ -70,10 +69,19 @@ button:focus {
   font-size: 2em;
   line-height: 1;
   font-family: $serif;
+  color: $color_secondary;
 }
 
 .sidebar h1 span {
   display: block;
+}
+
+.sidebar p {
+  color: #fff;
+}
+
+.sidebar hr {
+  border: 1px solid $color_secondary;
 }
 
 /* Codrops links */
@@ -295,7 +303,7 @@ button:focus {
   padding: 45px 55px 30px;
   position: relative;
   color: inherit;
-  background: $color_secondary;
+  background: #fff;
   min-height: $item_width;
   cursor: pointer;
   text-align: center;
