@@ -44,8 +44,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <script src="https://use.typekit.net/ywl3qgt.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  {% stylesheet style1 %}
   {% stylesheet application %}
+  {% stylesheet style %}
 </head>
 <body>
   <!--[if lt IE 8]>
@@ -62,7 +62,13 @@
           <h1>User Experience curated design collections</h1>
           <p>A hand-picked glossary of theories, tools, and principles</p>
           <hr>
-
+          <h2>Latest resources (May 30, 2016):</h2>
+          {% for stash_hash in site.data.stashes limit:3 %}
+            {% assign stash_entry = stash_hash[1] %}
+            {{ stash_entry.article.title }}
+          {% endfor %}
+          <h3></h3>
+          <h4></h4>
         </div>
       </div>
       <main class="main" role="main">

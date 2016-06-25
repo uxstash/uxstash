@@ -2,7 +2,7 @@ stash: Accessibility Analysis
 category: Development
 description: "A study to measure how the website is easy for everyone to use, regardless of their special needs. It could be done by specific tools, following the W3C guideline or even by an usability test."
 tag:
-url:
-  - https://www.w3.org/wiki/Accessibility_testing
-  - http://www.tutorialspoint.com/software_testing_dictionary/accessibility_testing.htm
-  - http://jimthatcher.com/testing.htm
+article:
+  - url: https://www.w3.org/wiki/Accessibility_testing
+  - url: http://www.tutorialspoint.com/software_testing_dictionary/accessibility_testing.htm
+  - url: http://jimthatcher.com/testing.htm
