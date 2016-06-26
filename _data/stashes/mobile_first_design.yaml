@@ -2,6 +2,10 @@ stash: Mobile-First Design
 category: Design
 description: "By starting mobile first with your responsive website you are able to make the tough decisions about the content."
 tag:
-url:
-  - http://bradfrost.com/blog/mobile/the-many-faces-of-mobile-first/
-  - http://zurb.com/word/mobile-first
+article:
+  - url: http://bradfrost.com/blog/mobile/the-many-faces-of-mobile-first/
+    title:
+    source:
+  - url: http://zurb.com/word/mobile-first
+    title:
+    source:

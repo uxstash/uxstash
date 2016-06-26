@@ -2,5 +2,7 @@ stash: Ecosystem Map
 category: Strategy
 description: "An ecosystem is the term given to a set of products, services, and people that function together in a symbiotic way. "
 tag:
-url:
-  - http://www.uxbooth.com/articles/designing-digital-strategies-part-1-cartography/
+article:
+  - url: http://www.uxbooth.com/articles/designing-digital-strategies-part-1-cartography/
+    title:
+    source:

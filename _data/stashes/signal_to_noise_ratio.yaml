@@ -2,6 +2,10 @@ stash: Signal-to-Noise Ratio
 category: Architecture
 description: "Similar to ‘Interference Effects’, this is a measure of how much relevant to irrelevant content you have on a page. More ‘signal’ and less ‘noise’ is better."
 tag:
-url:
-  - http://www.doctordisruption.com/design/principles-of-design-58-signal-to-noise-ratio/
-  - http://www.uxbooth.com/articles/designing-for-noise/
+article:
+  - url: http://www.doctordisruption.com/design/principles-of-design-58-signal-to-noise-ratio/
+    title:
+    source:
+  - url: http://www.uxbooth.com/articles/designing-for-noise/
+    title:
+    source:

@@ -2,7 +2,13 @@ stash: Participatory Design
 category: Management
 description: "Involvement of the stakeholders, designers, researchers and end-users in the design process in order to help ensure that the end product meets the needs of its intended user base."
 tag:
-url:
-  - http://www.uxpassion.com/blog/participatory-design-what-makes-it-great/
-  - http://www.uxbooth.com/articles/co-creation-designing-with-the-user-for-the-user/
-  - https://uxthink.wordpress.com/2010/11/10/participatory-design-research-part-1/
+article:
+  - url: http://www.uxpassion.com/blog/participatory-design-what-makes-it-great/
+    title:
+    source:
+  - url: http://www.uxbooth.com/articles/co-creation-designing-with-the-user-for-the-user/
+    title:
+    source:
+  - url: https://uxthink.wordpress.com/2010/11/10/participatory-design-research-part-1/
+    title:
+    source:

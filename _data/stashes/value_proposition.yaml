@@ -2,6 +2,10 @@ stash: Value Proposition
 category: Strategy
 description: "A value proposition is a promise of value to be delivered and acknowledged and a belief from the customer that value will be delivered and experienced. A value proposition can apply to an entire organization, or parts thereof, or customer accounts, or products or services."
 tag:
-url:
-  - https://en.wikipedia.org/wiki/Value_proposition
-  - http://conversionxl.com/value-proposition-examples-how-to-create/
+article:
+  - url: https://en.wikipedia.org/wiki/Value_proposition
+    title:
+    source:
+  - url: http://conversionxl.com/value-proposition-examples-how-to-create/
+    title:
+    source:

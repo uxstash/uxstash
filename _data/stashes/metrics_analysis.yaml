@@ -2,6 +2,10 @@ stash: Metrics Analysis
 category: Strategy
 description: "Web metrics are a treasure trove of UX data and insights. Used properly, metrics are the ultimate behavioral analysis tool; the trick is to know how to read the data and what it means."
 tag:
-url:
-  - http://www.dtelepathy.com/ux-metrics/
-  - https://library.gv.com/how-to-choose-the-right-ux-metrics-for-your-product-5f46359ab5be
+article:
+  - url: http://www.dtelepathy.com/ux-metrics/
+    title:
+    source:
+  - url: https://library.gv.com/how-to-choose-the-right-ux-metrics-for-your-product-5f46359ab5be
+    title:
+    source:

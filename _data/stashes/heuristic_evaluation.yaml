@@ -2,5 +2,7 @@ stash: Heuristic Evaluation
 category: Design
 description: "A usability inspection method for computer software that helps to identify usability problems in the user interface (UI) design. It specifically involves evaluators examining the interface and judging its compliance with recognized usability principles."
 tag:
-url:
-  - https://www.nngroup.com/articles/ten-usability-heuristics/
+article:
+  - url: https://www.nngroup.com/articles/ten-usability-heuristics/
+    title:
+    source:

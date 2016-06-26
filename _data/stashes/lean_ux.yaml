@@ -2,6 +2,10 @@ stash: Lean UX
 category: Strategy
 description: "Lean UX is a set of principles that may be used to guide you to better, more desirable solutions for users. It's not a process in which each tool is rigidly applied."
 tag:
-url:
-  - https://www.smashingmagazine.com/2011/03/lean-ux-getting-out-of-the-deliverables-business/
-  - https://www.smashingmagazine.com/2014/01/lean-ux-manifesto-principle-driven-design/
+article:
+  - url: https://www.smashingmagazine.com/2011/03/lean-ux-getting-out-of-the-deliverables-business/
+    title:
+    source:
+  - url: https://www.smashingmagazine.com/2014/01/lean-ux-manifesto-principle-driven-design/
+    title:
+    source:

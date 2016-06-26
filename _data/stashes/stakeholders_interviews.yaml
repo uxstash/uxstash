@@ -2,8 +2,16 @@ stash: Stakeholders Interviews
 category: Strategy
 description: "Stakeholder Interviews are conversations an individual conducts with his or her key stakeholder: customers, bosses, subordinates or peers both within and outside the organization. The interviews allow you to step into the shoes of your interviewees and see your role through the eyes of these stakeholders."
 tag:
-url:
-  - http://www.uxmatters.com/mt/archives/2007/09/conducting-successful-interviews-with-project-stakeholders.php
-  - https://www.presencing.com/tools/stakeholder-interviews
-  - http://www.uxapprentice.com/resources/stakeholder-interview-template/
-  - http://www.userfocus.co.uk/articles/conducting-an-effective-stakeholder-interview.html
+article:
+  - url: http://www.uxmatters.com/mt/archives/2007/09/conducting-successful-interviews-with-project-stakeholders.php
+    title:
+    source:
+  - url: https://www.presencing.com/tools/stakeholder-interviews
+    title:
+    source:
+  - url: http://www.uxapprentice.com/resources/stakeholder-interview-template/
+    title:
+    source:
+  - url: http://www.userfocus.co.uk/articles/conducting-an-effective-stakeholder-interview.html
+    title:
+    source:

@@ -2,6 +2,10 @@ stash: Hook Model
 category: Strategy
 description: "A four-step process companies use to hook users and form habits among them. The four parts of the model include: trigger, action, investment and variable reward."
 tag:
-url:
-  - https://studio.uxpin.com/blog/hook-users-habit-forming-ux-design/
-  - https://uxmag.com/articles/how-to-manufacture-desire
+article:
+  - url: https://studio.uxpin.com/blog/hook-users-habit-forming-ux-design/
+    title:
+    source:
+  - url: https://uxmag.com/articles/how-to-manufacture-desire
+    title:
+    source:

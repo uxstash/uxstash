@@ -2,6 +2,11 @@ stash: Paper Prototyping
 category: Development
 description: "Variation of usability testing where representative users perform realistic tasks by interacting with a paper version of the interface that is manipulated by a person 'playing computer,' who doesn't explain how the interface is intended to work."
 tag:
-url:
-  - http://alistapart.com/article/paperprototyping
-  - http://usabilitygeek.com/paper-prototyping-as-a-usability-testing-technique/
+article:
+  - url: http://alistapart.com/article/paperprototyping
+    title:
+    source:
+  - url: http://usabilitygeek.com/paper-prototyping-as-a-usability-testing-technique/
+    title:
+    source:
+

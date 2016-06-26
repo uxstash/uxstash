@@ -2,7 +2,13 @@ stash: Usability Testing
 category: Management
 description: "Usability testing is the best way to understand how real users experience your website or application. Unlike interviews or focus groups that attempt to get users to accurately self-report their own behavior or preferences, a well-designed user test measures actual performance on mission-critical tasks."
 tag:
-url:
-  - http://www.usabilityfirst.com/usability-methods/usability-testing/
-  - https://www.nngroup.com/reports/how-to-conduct-usability-studies/
-  - https://www.nngroup.com/articles/task-scenarios-usability-testing/
+article:
+  - url: http://www.usabilityfirst.com/usability-methods/usability-testing/
+    title:
+    source:
+  - url: https://www.nngroup.com/reports/how-to-conduct-usability-studies/
+    title:
+    source:
+  - url: https://www.nngroup.com/articles/task-scenarios-usability-testing/
+    title:
+    source:

@@ -2,7 +2,13 @@ stash: Style Tiles
 category: Design
 description: "Style Tiles are a design deliverable consisting of fonts, colors and interface elements that communicate the essence of a visual brand for the web."
 tag:
-url:
-  - http://styletil.es
-  - http://designshack.net/articles/graphics/style-tiles-the-flip-side-of-wireframes/
-  - http://www.anotheruiguy.com/ux-design-dev/_book/ux/style-tiles.html
+article:
+  - url: http://styletil.es
+    title:
+    source:
+  - url: http://designshack.net/articles/graphics/style-tiles-the-flip-side-of-wireframes/
+    title:
+    source:
+  - url: http://www.anotheruiguy.com/ux-design-dev/_book/ux/style-tiles.html
+    title:
+    source:

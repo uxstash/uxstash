@@ -2,5 +2,7 @@ stash: Kano Model
 category: Strategy
 description: "The Kano model is a theory of product development and customer satisfaction developed in the 1980s by Professor Noriaki Kano, which classifies customer preferences into five categories."
 tag:
-url:
-  - http://www.kanomodel.com/
+article:
+  - url: http://www.kanomodel.com/
+    title:
+    source:

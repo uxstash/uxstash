@@ -2,5 +2,7 @@ stash: Multivariate Testing
 category: Management
 description: "A technique for testing a hypothesis in which multiple variables are modified. The goal of multivariate testing is to determine which combination of variations performs the best out of all of the possible combinations."
 tag:
-url:
-  - https://www.optimizely.com/resources/multivariate-testing/
+article:
+  - url: https://www.optimizely.com/resources/multivariate-testing/
+    title:
+    source:

@@ -2,6 +2,10 @@ stash: Quantitative Survey
 category: Strategy
 description: "Quantitative research is about asking people for their opinions in a structured way so that you can produce hard facts and statistics to guide you. To get reliable statistical results, it's important to survey people in fairly large numbers and to make sure they are a representative sample of your target market."
 tag:
-url:
-  - http://www.measuringu.com/blog/five-hard-quant.php
-  - https://uxmag.com/articles/ten-guidelines-for-quantitative-measurement-of-ux
+article:
+  - url: http://www.measuringu.com/blog/five-hard-quant.php
+    title:
+    source:
+  - url: https://uxmag.com/articles/ten-guidelines-for-quantitative-measurement-of-ux
+    title:
+    source:

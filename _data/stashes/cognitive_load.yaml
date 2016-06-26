@@ -2,5 +2,7 @@ stash: Cognitive Load
 category: Management
 description: "The amount of mental processing power needed to use your site, affects how easily users find content and complete tasks."
 tag:
-url:
-  - https://www.nngroup.com/articles/minimize-cognitive-load/
+article:
+  - url: https://www.nngroup.com/articles/minimize-cognitive-load/
+    title:
+    source:

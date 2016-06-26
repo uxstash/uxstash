@@ -2,8 +2,16 @@ stash: Rapid Prototyping
 category: Development
 description: "A cyclycal approach towards design that focuses on quickly creating a functional, interactive prototype of a website or web application."
 tag:
-url:
-  - https://www.smashingmagazine.com/2010/06/design-better-faster-with-rapid-prototyping/
-  - http://www.uxforthemasses.com/rapid-prototyping/
-  - http://www.uxmatters.com/mt/archives/2013/03/are-rapid-prototyping-lean-ux-and-agile-development-good-for-user-experience.php
-  - http://blog.invisionapp.com/6-ways-to-save-time-in-rapid-prototyping/
+article:
+  - url: https://www.smashingmagazine.com/2010/06/design-better-faster-with-rapid-prototyping/
+    title:
+    source:
+  - url: http://www.uxforthemasses.com/rapid-prototyping/
+    title:
+    source:
+  - url: http://www.uxmatters.com/mt/archives/2013/03/are-rapid-prototyping-lean-ux-and-agile-development-good-for-user-experience.php
+    title:
+    source:
+  - url: http://blog.invisionapp.com/6-ways-to-save-time-in-rapid-prototyping/
+    title:
+    source:

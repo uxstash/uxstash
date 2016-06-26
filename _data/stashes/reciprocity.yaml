@@ -2,7 +2,13 @@ stash: Reciprocity
 category: Strategy
 description: "Humans tend to return good deeds: use this social psychology law in user interface design to gain users’ trust and motivate engagement with your site or app."
 tag:
-url:
-  - https://www.nngroup.com/articles/reciprocity-principle/
-  - http://www.uxmatters.com/mt/archives/2013/08/applying-behavioral-principles-to-personalize-content-using-social-media.php
-  - http://uxdesignleaders.com/knowledge-base/reciprocity/
+article:
+  - url: https://www.nngroup.com/articles/reciprocity-principle/
+    title:
+    source:
+  - url: http://www.uxmatters.com/mt/archives/2013/08/applying-behavioral-principles-to-personalize-content-using-social-media.php
+    title:
+    source:
+  - url: http://uxdesignleaders.com/knowledge-base/reciprocity/
+    title:
+    source:

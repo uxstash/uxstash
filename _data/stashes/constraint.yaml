@@ -2,5 +2,7 @@ stash: Constraint
 category: Development
 description: "The concept of constraints in design can be defined as the practice of limiting user actions on a system. Constraints limit the actions that can be performed by the user, thus increasing the usability of the design and reducing the likelihood of operator error."
 tag:
-url:
-  - http://www.uxbooth.com/articles/breaking-constraints/
+article:
+  - url: http://www.uxbooth.com/articles/breaking-constraints/
+    title:
+    source:

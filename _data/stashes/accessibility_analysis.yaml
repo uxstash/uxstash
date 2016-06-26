@@ -4,5 +4,11 @@ description: "A study to measure how the website is easy for everyone to use, re
 tag:
 article:
   - url: https://www.w3.org/wiki/Accessibility_testing
+    title:
+    source:
   - url: http://www.tutorialspoint.com/software_testing_dictionary/accessibility_testing.htm
+    title:
+    source:
   - url: http://jimthatcher.com/testing.htm
+    title:
+    source:

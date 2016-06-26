@@ -2,5 +2,7 @@ stash: Ethnography
 category: Strategy
 description: "Ethnographic field research involves the study of groups and people as they go about their everyday lives."
 tag:
-url:
-  - http://www.uxmatters.com/mt/archives/2010/06/ethnography-in-ux.php
+article:
+  - url: http://www.uxmatters.com/mt/archives/2010/06/ethnography-in-ux.php
+    title:
+    source:

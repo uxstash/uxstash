@@ -2,5 +2,7 @@ stash: Prototypes
 category: Development
 description: "A simulation of the final product. It’s like an interactive mockup that can have any degree of fidelity. The main purpose of building prototypes is to test whether or not the flow of the product is smooth and consistent."
 tag:
-url:
-  - https://uxmag.com/articles/what-a-prototype-is-and-is-not
+article:
+  - url: https://uxmag.com/articles/what-a-prototype-is-and-is-not
+    title:
+    source:

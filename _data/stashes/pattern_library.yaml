@@ -2,6 +2,10 @@ stash: Pattern Library
 category: Development
 description: "A formal way of documenting a solution to a common design problem. The idea was introduced by the architect Christopher Alexander for use in urban planning and building architecture, and has been adapted for various other disciplines, including teaching and pedagogy, development organization and process, and software architecture and design."
 tag:
-url:
-  - http://uxmovement.com/resources/4-best-design-pattern-libraries/
-  - https://studio.uxpin.com/blog/use-right-ui-design-patterns/
+article:
+  - url: http://uxmovement.com/resources/4-best-design-pattern-libraries/
+    title:
+    source:
+  - url: https://studio.uxpin.com/blog/use-right-ui-design-patterns/
+    title:
+    source:

@@ -2,9 +2,19 @@ stash: Sketches
 category: Architecture
 description: "Just like your thoughts and ideas, sketches are in a constant state of flux, evolving and morphing as you reach a potential solution. Don’t think that you have to be able to draw in order to sketch, although having some experience with it does help."
 tag:
-url:
-  - https://www.smashingmagazine.com/2011/12/the-messy-art-of-ux-sketching/
-  - http://uxmovement.com/wireframes/why-its-important-to-sketch-before-you-wireframe/
-  - https://uxmag.com/topics/sketching
-  - http://www.uxbooth.com/articles/tools-for-sketching-user-experiences/
-  - http://www.paulolyslager.com/theory-practice-of-sketching-ux-industry/
+article:
+  - url: https://www.smashingmagazine.com/2011/12/the-messy-art-of-ux-sketching/
+    title:
+    source:
+  - url: http://uxmovement.com/wireframes/why-its-important-to-sketch-before-you-wireframe/
+    title:
+    source:
+  - url: https://uxmag.com/topics/sketching
+    title:
+    source:
+  - url: http://www.uxbooth.com/articles/tools-for-sketching-user-experiences/
+    title:
+    source:
+  - url: http://www.paulolyslager.com/theory-practice-of-sketching-ux-industry/
+    title:
+    source:

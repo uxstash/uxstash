@@ -2,7 +2,13 @@ stash: Web Accessibility
 category: Development
 description: "Web accessibility refers to the inclusive practice of removing barriers that prevent interaction with, or access to websites, by people with disabilities. When sites are correctly designed, developed and edited, all users have equal access to information and functionality."
 tag:
-url:
-  - https://en.wikipedia.org/wiki/Web_accessibility
-  - https://www.w3.org/WAI/intro/accessibility.php
-  - http://webaim.org/intro/
+article:
+  - url: https://en.wikipedia.org/wiki/Web_accessibility
+    title:
+    source:
+  - url: https://www.w3.org/WAI/intro/accessibility.php
+    title:
+    source:
+  - url: http://webaim.org/intro/
+    title:
+    source:

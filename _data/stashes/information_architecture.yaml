@@ -2,5 +2,7 @@ stash: Information Architecture
 category: Architecture
 description: "Information architecture (IA) is the structural design of shared information environments; the art and science of organizing and labelling websites, intranets, online communities and software to support usability and findability."
 tag:
-url:
-  - http://www.usability.gov/what-and-why/information-architecture.html
+article:
+  - url: http://www.usability.gov/what-and-why/information-architecture.html
+    title:
+    source:

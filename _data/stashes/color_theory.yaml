@@ -2,5 +2,7 @@ stash: Color Theory
 category: Design
 description: "A body of practical guidance to color mixing and the visual effects of a specific color combination."
 tag:
-url:
-  - https://www.usertesting.com/blog/2014/12/02/color-ux-conversion-rates/
+article:
+  - url: https://www.usertesting.com/blog/2014/12/02/color-ux-conversion-rates/
+    title:
+    source:

@@ -2,6 +2,11 @@ stash: Legibility vs Readability
 category: Design
 description: "Users won’t read web content unless the text is clear, the words and sentences are simple, and the information is easy to understand. You can test all of this."
 tag:
-url:
-  - http://webdesign.tutsplus.com/articles/typographic-readability-and-legibility--webdesign-12211
-  - https://www.nngroup.com/articles/legibility-readability-comprehension/
+article:
+  - url: http://webdesign.tutsplus.com/articles/typographic-readability-and-legibility--webdesign-12211
+    title:
+    source:
+  - url: https://www.nngroup.com/articles/legibility-readability-comprehension/
+    title:
+    source:
+

@@ -2,6 +2,10 @@ stash: Storyboards
 category: Strategy
 description: "A storyboard is a technique for illustrating an interaction between a person and a product (or multiple people and multiple products) in narrative format, which includes a series of drawings, sketches, or pictures and sometimes words that tell a story."
 tag:
-url:
-  - http://www.fastcodesign.com/1672917/the-8-steps-to-creating-a-great-storyboard
-  - https://uxmag.com/articles/storyboarding-in-the-software-design-process
+article:
+  - url: http://www.fastcodesign.com/1672917/the-8-steps-to-creating-a-great-storyboard
+    title:
+    source:
+  - url: https://uxmag.com/articles/storyboarding-in-the-software-design-process
+    title:
+    source:

@@ -2,7 +2,13 @@ stash: Sketch App
 category: Design
 description: "Sketch is built for modern graphic designers, and it shows in every fibre of the app. From a flexible workflow with support for Multiple Pages and Artboards."
 tag:
-url:
-  - https://www.sketchapp.com
-  - https://medium.com/sketch-app
-  - http://www.sketchappsources.com
+article:
+  - url: https://www.sketchapp.com
+    title:
+    source:
+  - url: https://medium.com/sketch-app
+    title:
+    source:
+  - url: http://www.sketchappsources.com
+    title:
+    source:

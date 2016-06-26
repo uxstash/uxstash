@@ -2,5 +2,7 @@ stash: Flexibility-Usability Tradeoff
 category: Management
 description: "The flexibility-usability tradeoff is a design principle maintaining that, as the flexibility of a system increases, its usability decreases. The tradeoff exists because accommodating flexibility requires satisfying a larger set of requirements, which results in complexity and usability compromises"
 tag:
-url:
-  - http://crosssquare.co.uk/flexibility-usability-tradeoff/
+article:
+  - url: http://crosssquare.co.uk/flexibility-usability-tradeoff/
+    title:
+    source:

@@ -2,5 +2,7 @@ stash: Aesthetic-Usability Effect
 category: Design
 description: "The aesthetic usability effect is where a user will perceive an attractive product as easier to use than an ugly one."
 tag:
-url:
-  - http://usabilityfriction.com/2010/03/30/aesthetic-usability-effect/
+article:
+  - url: http://usabilityfriction.com/2010/03/30/aesthetic-usability-effect/
+    title:
+    source:
