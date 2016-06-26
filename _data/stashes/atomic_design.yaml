@@ -4,5 +4,5 @@ description: "A methodology for creating design systems."
 tag:
 article:
   - url: http://bradfrost.com/blog/post/atomic-web-design/
-    title:
-    source:
+    title: Atomic Design
+    source: bradfrost.com
