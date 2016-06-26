@@ -19,8 +19,8 @@ description: ""
       <div class="loader"></div>
       <span class="category">{{ stash_entry.category }}</span>
       <div class="meta meta--preview">
-      {{ stash_entry.url | size }}
-        {% if stash_entry.url.size == 1  %}
+      {{ stash_entry.article | size }}
+        {% if stash_entry.article.size == 1  %}
           article
           {% else %}
           articles
@@ -39,11 +39,11 @@ description: ""
         <div class="meta meta--full">
         </div>
         <p>{{ stash_entry.description }}</p>
-        <ol>
-        {% for stash_url in stash_entry.url %}
-        <li><a href="{{ stash_url }}" target="_blank">{{ stash_url }}</a></li>
+        <h3 class="title">Resources</h3>
+        {% for stash_url in stash_entry.article %}
+        <h4><a href="{{ stash_url.url }}" target="_blank">{{ stash_url.title }}</a></h4>
+        <p>{{ stash_url.source }}</p>
         {% endfor %}
-        </ol>
       </article>
       {% endfor %}
     </div>
