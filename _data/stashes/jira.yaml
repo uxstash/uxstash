@@ -4,8 +4,8 @@ description: "Jira is a proprietary issue tracking product, developed by Atlassi
 tag:
 article:
   - url: https://www.atlassian.com/software/jira
-    title:
-    source:
+    title: Jira Software
+    source: Atlassian
   - url: http://blogs.atlassian.com/blog-cat/jira/
-    title:
-    source:
+    title: Jira Articles
+    source: Atlassian Blogs

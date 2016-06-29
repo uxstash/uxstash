@@ -4,5 +4,8 @@ description: "Information architecture (IA) is the structural design of shared i
 tag:
 article:
   - url: http://www.usability.gov/what-and-why/information-architecture.html
-    title:
-    source:
+    title: Information Architecture Basics
+    source: Usability.gov
+  - url: http://www.jjg.net/ia/visvocab/
+    title: A visual vocabulary for describing information architecture and interaction design
+    source: Jesse James Garrett

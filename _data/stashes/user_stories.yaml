@@ -4,17 +4,17 @@ description: "User stories are part of an agile approach that helps shift the fo
 tag:
 article:
   - url: https://www.mountaingoatsoftware.com/agile/user-stories
-    title:
-    source:
+    title: User Stories
+    source: Mountain Goat Software
   - url: http://www.agilemodeling.com/artifacts/userStory.htm
-    title:
-    source:
+    title: User Stories: An Agile Introduction
+    source: Agile Modeling
   - url: https://en.wikipedia.org/wiki/User_story
-    title:
-    source:
+    title: User Story
+    source: Wikipedia
   - url: http://guide.agilealliance.org/guide/user-stories.html
-    title:
-    source:
+    title: Glossary: User Stories
+    source: Agile Alliance
   - url: http://www.romanpichler.com/blog/10-tips-writing-good-user-stories/
-    title:
-    source:
+    title: 10 Tips for Writing Good User Stories
+    source: Pichler Consulting

@@ -4,8 +4,8 @@ description: "A site map (or sitemap) is a list of pages of a web site accessibl
 tag:
 article:
   - url: https://support.google.com/webmasters/answer/156184?hl=en
-    title:
-    source:
+    title: Learn about sitemaps
+    source: Google
   - url: http://www.sitemaps.org/protocol.html
-    title:
-    source:
+    title: Sitemaps XML format
+    source: Sitemaps.org

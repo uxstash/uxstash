@@ -4,14 +4,14 @@ description: "List of actions or event steps, typically defining the interaction
 tag:
 article:
   - url: https://en.wikipedia.org/wiki/Use_case
-    title:
-    source:
+    title: Use case
+    source: Wikipedia
   - url: http://tynerblain.com/blog/2007/04/10/what-are-use-case-scenarios/
-    title:
-    source:
+    title: What Are Use Case Scenarios?
+    source: Tyner Blain
   - url: http://www.watermarklearning.com/blog/scenarios-and-use-cases/
-    title:
-    source:
+    title: Scenarios and Use Cases – Useful Techniques
+    source: Watermark Learning
   - url: https://www.ivarjacobson.com/publications/white-papers/use-case-ebook
-    title:
-    source:
+    title: Use Case 2.0 eBook (download)
+    source: Ivar Jacobson International

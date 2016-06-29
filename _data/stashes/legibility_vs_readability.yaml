@@ -4,9 +4,8 @@ description: "Users won’t read web content unless the text is clear, the words
 tag:
 article:
   - url: http://webdesign.tutsplus.com/articles/typographic-readability-and-legibility--webdesign-12211
-    title:
-    source:
+    title: Typographic Readability and Legibility
+    source: Envato Tutsplus
   - url: https://www.nngroup.com/articles/legibility-readability-comprehension/
-    title:
-    source:
-
+    title: Legibility, Readability, and Comprehension: Making Users Read Your Words
+    source: Nielsen norman Group

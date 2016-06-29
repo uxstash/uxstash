@@ -4,11 +4,11 @@ description: "Web accessibility refers to the inclusive practice of removing bar
 tag:
 article:
   - url: https://en.wikipedia.org/wiki/Web_accessibility
-    title:
-    source:
+    title: Web accessibility
+    source: Wikipedia
   - url: https://www.w3.org/WAI/intro/accessibility.php
-    title:
-    source:
+    title: Introduction to Web Accessibility
+    source: W3C
   - url: http://webaim.org/intro/
-    title:
-    source:
+    title: Introduction to Web Accessibility
+    source: WebAIM
