@@ -2,7 +2,7 @@
 title: UX Stash
 email: hello@uxstash.io
 description: > # this means to ignore newlines until "baseurl:"
-  UX links and goodies
+  User Experience curated design collections
 url: "http://uxstash.io/" # the base hostname & protocol for your site
 twitter_username: ux_stash
 github_username:  uxstash
@@ -37,6 +37,6 @@ gems:
   - jekyll-assets
   - jekyll-sitemap
 
-name: uxstash_github_io
+name: UX Stash
 
 permalink: pretty

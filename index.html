@@ -5,13 +5,13 @@ description: ""
 ---
 <div id="theGrid">
   <section class="grid">
-    <header class="top-bar">
+    <!-- <header class="top-bar">
       <h2 class="top-bar__headline">Latest articles</h2>
       <div class="filter">
         <span>Filter by:</span>
         <span class="dropdown">Popular</span>
       </div>
-    </header>
+    </header> -->
     {% for stash_hash in site.data.stashes %}
     {% assign stash_entry = stash_hash[1] %}
     <a class="grid__item" href="#">

@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ site.name }} | {{ page.title }}</title>
-  <meta name="description" content="{{ page.description }}">
+  <title>{{ site.name }} | {{ site.description }}</title>
+  <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:title" content="{{ site.name }}">
   <meta property="og:url" content="{{ site.url }}">
-  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:description" content="{{ site.description }}">
   <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:image" content="">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="{{ site.url }}">
   <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:description" content="{{ site.description }}">
   <meta name="twitter:image" content="">
 
   <link rel="apple-touch-icon" sizes="57x57" href="{% asset_path favicons/apple-touch-icon-57x57.png %}">
@@ -61,14 +61,14 @@
           <button class="close-button fa fa-fw fa-close"></button>
           <h1>User Experience curated design collections</h1>
           <p>A hand-picked glossary of theories, tools, and principles</p>
-          <hr>
+          <!-- <hr>
           <h2>Latest resources (May 30, 2016):</h2>
           {% for stash_hash in site.data.stashes limit:3 %}
             {% assign stash_entry = stash_hash[1] %}
             {{ stash_entry.article.title }}
           {% endfor %}
           <h3></h3>
-          <h4></h4>
+          <h4></h4> -->
         </div>
       </div>
       <main class="main" role="main">
