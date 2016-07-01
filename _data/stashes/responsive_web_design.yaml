@@ -9,3 +9,12 @@ article:
   - url: https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/
     title: "Responsive Web Design: What It Is and How To Use It"
     source: Smashing Magazine
+  - url: http://zellwk.com/blog/from-html-grids-to-css-grids/
+    title: Moving from HTML Grid Systems to CSS Grid Systems
+    source: Zellwk.com
+  - url: https://www.smashingmagazine.com/2013/07/choosing-a-responsive-image-solution/
+    title: Choosing A Responsive Image Solution
+    source: Smashing Magazine
+  - url: http://osvaldas.info/flexbox-based-responsive-equal-height-blocks-with-javascript-fallback
+    title: Flexbox Based Responsive Equal Height Blocks With JavaScript Fallback
+    source: osvaldas.info
