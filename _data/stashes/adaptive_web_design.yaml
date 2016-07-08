@@ -6,3 +6,6 @@ article:
   - url: http://www.sitepoint.com/moving-beyond-responsive-web-adaptive-web/
     title: Moving Beyond the Responsive Web to the Adaptive Web
     source: SitePoint
+  - url: https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/
+    title: The Difference Between Responsive and Adaptive Design
+    source: CSS Tricks
