@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/uxstash/uxstash.png?label=ready&title=Ready)](https://waffle.io/uxstash/uxstash)
 # Uxstash
 
 ## Installation
