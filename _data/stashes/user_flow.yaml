@@ -15,3 +15,6 @@ article:
   - url: http://docs.oracle.com/cd/E22345_01/doc.111/e22309/userflows.htm
     title: Working with User Flows
     source: Oracle Real User Experience Insight User's Guide
+  - url: https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows
+    title: A shorthand for designing UI flows
+    source: "Signal v. Noise"
