@@ -3,9 +3,18 @@ category: Strategy
 description: "The Pareto principle (also known as the 80–20 rule, the law of the vital few, and the principle of factor sparsity) states that, for many events, roughly 80% of the effects come from 20% of the causes."
 tag:
 article:
-  - url: http://northerndiv.com/improving-ux-80-20-rule/
-    title: Improving UX with the 80/20 rule
-    source: http://northerndiv.com/
   - url: http://www.webdesignerdepot.com/2011/02/the-8020-rule-applied-to-web-design/
     title: The 80/20 Rule Applied to Web Design
     source: WebdesignerDepot
+  - url: https://www.interaction-design.org/literature/article/the-pareto-principle-and-your-user-experience-work
+    title: The Pareto Principle and Your User Experience Work
+    source: Interaction Design Foundation
+  - url: https://uxmag.com/articles/pareto-principle-based-user-research
+    title: "Pareto Principle-Based User Research"
+    source: UX Magazine
+  - url: http://www.keepitusable.com/blog/?tag=8020-rule
+    title: Using the Pareto Principle to improve your user experience
+    source: Keep It Usable
+  - url: http://www.measuringu.com/blog/pareto-ux.php
+    title: Applying The Pareto Principle To The User Experience
+    source: Measuring U
