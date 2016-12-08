@@ -9,3 +9,12 @@ article:
   - url: https://css-tricks.com/the-difference-between-responsive-and-adaptive-design/
     title: The Difference Between Responsive and Adaptive Design
     source: CSS Tricks
+  - url: https://www.interaction-design.org/literature/article/adaptive-vs-responsive-design
+    title: "Adaptive vs. Responsive Design"
+    source: Interaction Design Foundation
+  - url: http://www.webdesignerdepot.com/2014/05/responsive-vs-adaptive-webdesign-which-is-best-for-you/
+    title: "Responsive vs adaptive webdesign, which is best for you?"
+    source: Web Designer Depot
+  - url: https://www.nngroup.com/articles/mobile-vs-responsive/
+    title: "Mobile Websites: Mobile-Dedicated, Responsive, Adaptive, or Desktop Site?"
+    source: Nielsen Norman Group
