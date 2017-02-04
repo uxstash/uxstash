@@ -9,3 +9,12 @@ article:
   - url: http://zurb.com/word/mobile-first
     title: Mobile First. An adaptive, future-friendly solution for website design.
     source: Zurb University
+  - url: http://static.lukew.com/MobileFirst_LukeW.pdf
+    title: Mobile First
+    source: Luke Wroblewski
+  - url: https://www.nngroup.com/articles/mobile-first-not-mobile-only/
+    title: Mobile First Is NOT Mobile Only
+    source: Nielsen Norman Group
+  - url: http://blog.invisionapp.com/mobile-first-mobile-only/
+    title: "Mobile first: Insights form going mobile only"
+    source: Invision App Blog
