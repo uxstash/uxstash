@@ -9,3 +9,15 @@ article:
   - url: http://www.uxbooth.com/articles/designing-for-noise/
     title: Designing for Noise
     source: UX Booth
+  - url: http://vanseodesign.com/web-design/signal-to-noise-ratio/
+    title: "What’s The Signal to Noise Ratio Of Your Design?"
+    source: Vanseo Design
+  - url: http://uxmovement.com/thinking/what-the-word-minimalist-means/
+    title: "What the Word “Minimalist” Means"
+    source: UX Movement
+  - url: http://reliawiki.org/index.php/Robust_Parameter_Design
+    title: "Robust Parameter Design"
+    source: Reliawiki
+  - url: http://documentation.statsoft.com/STATISTICAHelp.aspx?path=Experimental/Doe/Overview/TaguchiMethodsSignaltoNoiseSNRatios
+    title: "Taguchi Methods: Robust Design Experiments - Signal-to-Noise (S/N) Ratios"
+    source: Statistica
