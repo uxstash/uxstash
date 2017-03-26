@@ -40,3 +40,7 @@ gems:
 name: UX Stash
 
 permalink: pretty
+
+collections:
+  stashes:
+    output: true

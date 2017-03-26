@@ -1,0 +1,26 @@
+---
+layout: detail
+stash: Use Cases and Scenarios
+category: Management
+description: "List of actions or event steps, typically defining the interactions between a role (known in the Unified Modeling Language as an actor) and a system, to achieve a goal."
+tag:
+article:
+  - url: https://en.wikipedia.org/wiki/Use_case
+    title: Use case
+    source: Wikipedia
+  - url: http://tynerblain.com/blog/2007/04/10/what-are-use-case-scenarios/
+    title: What Are Use Case Scenarios?
+    source: Tyner Blain
+  - url: http://www.watermarklearning.com/blog/scenarios-and-use-cases/
+    title: Scenarios and Use Cases – Useful Techniques
+    source: Watermark Learning
+  - url: https://www.ivarjacobson.com/publications/white-papers/use-case-ebook
+    title: Use Case 2.0 eBook (download)
+    source: Ivar Jacobson International
+  - url: http://ux.walkme.com/understanding-use-case-analysis/
+    title: Understanding Use Case Analysis
+    source: UX Motel
+  - url: https://uxapprentice.wordpress.com/tag/use-cases/
+    title: Posts about Use cases on UX Apprentice
+    source: UX Apprentice
+---

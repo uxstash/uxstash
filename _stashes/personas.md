@@ -1,0 +1,32 @@
+---
+layout: detail
+stash: Personas
+category: Strategy
+description: "In user-centered design and marketing, personas are fictional characters created to represent the different user types that might use a site, brand, or product in a similar way."
+tag:
+article:
+  - url: https://uxmag.com/articles/personas-the-foundation-of-a-great-user-experience
+    title: "Personas: The Foundation of a Great User Experience"
+    source: UX Magazine
+  - url: http://www.uxbooth.com/articles/creating-personas/
+    title: Creating Personas
+    source: UX Booth
+  - url: http://uxmastery.com/create-ux-personas/
+    title: How To Create UX Personas
+    source: UX Mastery
+  - url: https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-1/
+    title: "A Closer Look At Personas: What They Are And How They Work (Part 1)"
+    source: Smashing Magazine
+  - url: https://www.smashingmagazine.com/2014/08/a-closer-look-at-personas-part-2/
+    title: "A Closer Look At Personas: What They Are And How They Work (Part 2)"
+    source: Smashing Magazine
+  - url: http://www.ux-lady.com/introduction-to-user-personas/
+    title: Introduction to User Personas
+    source: UX Lady
+  - url: http://webdesign.tutsplus.com/articles/defining-and-applying-personas-to-ux-design--webdesign-7561
+    title: Defining And Applying Personas to UX Design
+    source: Evato Tutsplus
+  - url: http://www.uxforthemasses.com/personas/
+    title: Getting the most out of personas
+    source: UX for the masses
+---
