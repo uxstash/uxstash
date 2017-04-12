@@ -8,9 +8,6 @@ article:
   - url: http://www.uxmatters.com/mt/archives/2011/09/the-value-of-customer-journey-maps-a-ux-designers-personal-journey.php
     title: "The Value of Customer Journey Maps: A UX Designer’s Personal Journey"
     source: UX Matters
-  - url: http://bigdoor.com/blog/2013/11/01/a-quick-guide-to-customer-journey-mapping/
-    title: A Quick Guide to Customer Journey Mapping
-    source: The BigDoor Blog
   - url: https://hbr.org/2010/11/using-customer-journey-maps-to/
     title: Using Customer Journey Maps to Improve Customer Experience
     source: Harvard Business Review

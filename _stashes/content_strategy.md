@@ -8,9 +8,6 @@ article:
   - url: https://en.wikipedia.org/wiki/Content_strategy
     title: Content strategy
     source: Wikipedia
-  - url: http://www.hugeinc.com/ideas/perspective/ux-storytelling
-    title: "The Intersection of UX Storytelling + Content Strategy"
-    source: Huge Inc
   - url: https://nerdery.com/blog/ux-designers-should-be-content-strategists-too/
     title: UX Designers Should Be Content Strategists Too
     source: Nerdery

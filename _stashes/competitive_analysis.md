@@ -14,4 +14,10 @@ article:
   - url: http://cargocollective.com/ameliabauerly/Competitive-Analysis-Example
     title: "Competitive Analysis Example - Adventures in UX"
     source: Amelia Bauerly
+  - url: https://www.entrepreneur.com/encyclopedia/competitive-analysis
+    title: Competitive Analysis
+    source: Entrepreneur
+  - url: http://edwardlowe.org/how-to-conduct-and-prepare-a-competitive-analysis/
+    title: How to Conduct and Prepare a Competitive Analysis
+    source: Edward Lowe Foundation
 ---

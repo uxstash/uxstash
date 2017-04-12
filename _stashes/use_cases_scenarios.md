@@ -11,9 +11,6 @@ article:
   - url: http://tynerblain.com/blog/2007/04/10/what-are-use-case-scenarios/
     title: What Are Use Case Scenarios?
     source: Tyner Blain
-  - url: http://www.watermarklearning.com/blog/scenarios-and-use-cases/
-    title: Scenarios and Use Cases – Useful Techniques
-    source: Watermark Learning
   - url: https://www.ivarjacobson.com/publications/white-papers/use-case-ebook
     title: Use Case 2.0 eBook (download)
     source: Ivar Jacobson International

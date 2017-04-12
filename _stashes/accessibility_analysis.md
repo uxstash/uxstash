@@ -14,9 +14,6 @@ article:
   - url: http://jimthatcher.com/testing.htm
     title: Web Accessibility Testing
     source: jimthatcher.com
-  - url: http://docs.webplatform.org/wiki/concepts/accessibility
-    title: "Web accessibility basics"
-    source: WebPlatform
   - url: http://uxmyths.com/post/654091803/myth-5-accessibility-is-expensive-and-difficult
     title: "Myth #5: Accessibility is expensive and difficult"
     source: UX Myths
