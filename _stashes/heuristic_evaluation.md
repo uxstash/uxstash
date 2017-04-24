@@ -20,4 +20,7 @@ article:
   - url: https://www.interaction-design.org/literature/article/heuristic-evaluation-how-to-conduct-a-heuristic-evaluation
     title: "Heuristic Evaluation: How to Conduct a Heuristic Evaluation"
     source: Interaction Design Foundation
+  - url: https://designmodo.com/usability-heuristic-evaluation/
+    title: "How to Conduct a Usability Heuristic Evaluation"
+    source: Designmodo
 ---
