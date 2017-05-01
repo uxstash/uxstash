@@ -14,4 +14,10 @@ article:
   - url: http://www.lancaster.ac.uk/fass/projects/stylistics/topic12/14cp1.htm
     title: Grice's Cooperative Principle
     source: Lancaster University
+  - url: http://conveyux.com/sessions/the-cooperative-principle-in-conversation-design/
+    title: "The Cooperative Principle in Conversation Design"
+    source: Convey UX
+  - url: https://www.linkedin.com/pulse/gricean-maxims-ui-design-luca-polverini
+    title: Gricean Maxims and UI design
+    source: "Luca Polverini. LinkedIn Pulse"
 ---
