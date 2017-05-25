@@ -14,4 +14,13 @@ article:
   - url: https://www.interaction-design.org/literature/article/fitts-law-tracking-users-clicks
     title: "Fitts’ Law: Tracking users’ clicks"
     source: Interaction Design Foundation
+  - url: http://simonwallner.at/ext/fitts/
+    title: "An Interactive Visualisation of Fitts's Law with JavaScript and D3"
+    source: Simon Wallner
+  - url: https://webdesign.tutsplus.com/articles/applying-fitts-law-to-mobile-interface-design--webdesign-6919
+    title: "Applying Fitts’ Law To Mobile Interface Design"
+    source: "Envato Tuts+"
+  - url: https://www.interaction-design.org/literature/article/fitts-s-law-the-importance-of-size-and-distance-in-ui-design
+    title: "Fitts's Law: The Importance of Size and Distance in UI Design"
+    source: Interaction Design Foundation
 ---
