@@ -14,4 +14,13 @@ article:
   - url: http://www.uxbooth.com/articles/complete-beginners-guide-to-information-architecture/
     title: Complete Beginner’s Guide to Information Architecture
     source: UX Booth
+  - url: https://www.nngroup.com/articles/ia-vs-navigation/
+    title: "The Difference Between Information Architecture (IA) and Navigation"
+    source: "Jennifer Cardello. Nielsen Norman Group."
+  - url: http://www.usabilityfirst.com/about-usability/information-architecture/
+    title: Information Architecture
+    source: Usability First
+  - url: https://alistapart.com/article/theelementsofsocialarchitecture
+    title: The Elements of Social Architecture
+    source: Christina Wodtke
 ---
