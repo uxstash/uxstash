@@ -1,6 +1,6 @@
 ---
 layout: detail
-stash: Ockham’s Razor
+stash: Occam’s Razor
 category: Architecture
 description: "Occam’s Razor, put simply, states: “the simplest solution is almost always the best.” It’s a problem-solving principle arguing that simplicity is better than complexity."
 tag:
@@ -14,4 +14,10 @@ article:
   - url: https://www.interaction-design.org/literature/article/occam-s-razor-the-simplest-solution-is-always-the-best
     title: "Occam's Razor: The simplest solution is always the best"
     source: Interaction Design Foundation
+  - url: https://plato.stanford.edu/entries/simplicity/
+    title: Simplicity
+    source: Stanford Encyclopedia of Philosophy
+  - url: http://math.ucr.edu/home/baez/physics/General/occam.html
+    title: "What is Occam's Razor?"
+    source: UC Riverside
 ---
