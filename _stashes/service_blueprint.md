@@ -14,4 +14,10 @@ article:
   - url: http://www.servicedesigntools.org/tools/35
     title: Blueprint
     source: Service Design Tools
+  - url: http://www.servicedesigntools.org/tools/35
+    title: Blueprint
+    source: Service Design Tools
+  - url: https://www.nngroup.com/articles/service-blueprints-definition/
+    title: "Service Blueprints: Definition"
+    source: "Sarah Gibbons. Nielsen Norman Group"
 ---
