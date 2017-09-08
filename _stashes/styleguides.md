@@ -14,4 +14,10 @@ article:
   - url: https://uxmag.com/articles/the-elements-of-a-style-guide
     title: The Elements of a Style Guide
     source: UX Magazine
+  - url: https://www.uxpin.com/studio/blog/great-ui-design-requires-smart-style-guides/
+    title: Great UI Design Requires Smart Style Guides
+    source: UXPin
+  - url: https://www.nngroup.com/articles/front-end-style-guides/
+    title: "Front-End Style-Guides: Definition, Requirements, Component Checklist"
+    source: Nielsen Norman Group
 ---
