@@ -11,6 +11,12 @@ article:
   - url: http://alistapart.com/article/understandingprogressiveenhancement
     title: Understanding Progressive Enhancement
     source: A List Apart
+  - url: https://www.nngroup.com/articles/enhancement/
+    title: The Role of Enhancement in Web Design
+    source: "Raluca Budiu, Nielsen Norman Group"
+  - url: https://articles.uie.com/progressive_enhancement/
+    title: "Progressive Enhancement and the Content-out Approach"
+    source: "Aaron Gustafson. UIE"
   - url: http://blog.teamtreehouse.com/progressive-enhancement-past-present-future
     title: "Progressive Enhancement: Past, Present, and Future"
     source: Treehouse Blog
