@@ -14,4 +14,10 @@ article:
   - url: https://www.interaction-design.org/literature/article/task-analysis-a-ux-designer-s-best-friend
     title: Task Analysis a UX Designer's Best Friend
     source: Interaction Design Foundation
+  - url: http://www.usabilitybok.org/task-analysis
+    title: Task Analysis and Modeling Methods
+    source: Usability Body of Language
+  - url: http://www.idemployee.id.tue.nl/g.w.m.rauterberg/lecturenotes/UFTtask-analysis.pdf
+    title: "Task analysis (PDF)"
+    source: USERfit
 ---
