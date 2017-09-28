@@ -14,4 +14,10 @@ article:
   - url: http://zurb.com/word/visual-weight
     title: Visual Weight
     source: Zurb University
+  - url: https://uxmag.com/articles/visual-balance-and-weight-allocation-for-usability
+    title: Visual Balance and Weight Allocation for Usability
+    source: UX Magazine
+  - url: http://uxmovement.com/buttons/visual-weight-of-primary-and-secondary-action-buttons/
+    title: Visual Weight of Primary and Secondary Action Buttons
+    source: UX Movement
 ---
