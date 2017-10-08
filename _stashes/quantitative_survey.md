@@ -2,7 +2,7 @@
 layout: detail
 stash: Quantitative Survey
 category: Strategy
-description: "Questions that provide numbers as result. Quick and unexpensive way of measuring user satisfaction and collecting feedback about the product. It could indicate the need for a deeper qualitative test."
+description: "Questions that provide numbers as result. Quick and inexpensive way of measuring user satisfaction and collecting feedback about the product. It could indicate the need for a deeper qualitative test."
 tag:
 article:
   - url: http://www.measuringu.com/blog/five-hard-quant.php
