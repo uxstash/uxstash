@@ -14,4 +14,10 @@ article:
   - url: https://uxthink.wordpress.com/2010/11/10/participatory-design-research-part-1/
     title: Thinking About Participatory Design Research
     source: UX Think
+  - url: http://lj.libraryjournal.com/2017/09/academic-libraries/participatory-design-action-user-experience/#_
+    title: "Participatory Design in Action"
+    source: "Scott W.H. Young. Library Journal"
+  - url: http://katiemccurdy.com/participatory-design/
+    title: Participatory Design Resources
+    source: Katie McCurdy
 ---
