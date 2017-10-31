@@ -14,4 +14,13 @@ article:
   - url: http://webaim.org/intro/
     title: Introduction to Web Accessibility
     source: WebAIM
+  - url: https://webaccessibility.withgoogle.com/course
+    title: "Course: Introduction to Web Accessibility"
+    source: Google Accessibility
+  - url: http://www.afb.org/info/accessibility/creating-accessible-websites/23
+    title: Creating Accessible Websites
+    source: American Foundation for the Blind
+  - url: https://webaccess.berkeley.edu/resources/tips/web-accessibility
+    title: Top 10 Tips for Making Your Website Accessible
+    source: UC Berkeley
 ---

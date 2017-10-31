@@ -14,4 +14,16 @@ article:
   - url: https://en.wikipedia.org/wiki/Think_aloud_protocol
     title: Think aloud protocol
     source: Wikipedia
+  - url: https://measuringu.com/ta-gazepaths/
+    title: "Does thinking aloud affect where people look?"
+    source: "Jeff Sauro, MeasuringU"
+  - url: https://www.linkedin.com/learning/ux-foundations-usability-testing/think-aloud-protocol-and-minimal-questions
+    title: "Think-aloud protocol and minimal questions"
+    source: LinkedIn Learning
+  - url: https://www.athenabrand.com/blog/thinking-aloud-protocol-for-website-usability-testing/
+    title: "Video: Understanding The Thinking Aloud Protocol For Website Usability Testing"
+    source: "Jeff Hecker, Athena Brand Wisdom"
+  - url: http://practicaluxmethods.com/product/think-aloud-testing/
+    title: "Think-Aloud Testing"
+    source: Practical UX Methods
 ---
