@@ -8,9 +8,6 @@ article:
   - url: http://styletil.es
     title: Style Tiles (website)
     source: Style Tiles
-  - url: http://designshack.net/articles/graphics/style-tiles-the-flip-side-of-wireframes/
-    title: "tyle Tiles: The Flip Side of Wireframes"
-    source: Design Shack
   - url: http://www.anotheruiguy.com/ux-design-dev/_book/ux/style-tiles.html
     title: Style Tiles and How They Work
     source: Another UI Guy
