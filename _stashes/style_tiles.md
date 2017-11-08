@@ -8,9 +8,6 @@ article:
   - url: http://styletil.es
     title: Style Tiles (website)
     source: Style Tiles
-  - url: http://www.anotheruiguy.com/ux-design-dev/_book/ux/style-tiles.html
-    title: Style Tiles and How They Work
-    source: Another UI Guy
   - url: https://alistapart.com/article/style-tiles-and-how-they-work
     title: Style Tiles and How They Work
     source: "Samantha Warren, A List Apart"
