@@ -23,4 +23,7 @@ article:
   - url: https://webaccess.berkeley.edu/resources/tips/web-accessibility
     title: Top 10 Tips for Making Your Website Accessible
     source: UC Berkeley
+  - url: https://uxdesign.cc/tips-for-accessibility-in-conversational-interfaces-8e11c58b31f6
+    title: "Tips for Designing Accessibility in Voice User Interfaces"
+    source: "Bo Campbell, UXDesign.cc"
 ---

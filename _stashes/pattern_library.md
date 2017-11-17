@@ -20,4 +20,7 @@ article:
   - url: http://alistapart.com/blog/post/getting-started-with-pattern-libraries
     title: Getting Started With Pattern Libraries
     source: A List Apart
+  - url: https://uxdesign.cc/shared-libraries-which-one-to-use-f89f20d4eaef
+    title: Shared libraries: which one to use?
+    source: "Audrey Hacq, UXDesign.cc"
 ---

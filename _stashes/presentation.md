@@ -20,4 +20,7 @@ article:
   - url: https://www.inc.com/guides/how-to-improve-your-presentation-skills.html
     title: How to Improve Your Presentation Skills
     source: "Inc."
+  - url: https://uxdesign.cc/the-relationship-between-design-deliverables-and-presentation-skills-56c713694446
+    title: "The relationship between design deliverables and presentation skills"
+    source: "Fabricio Teixeira, UXDesign.cc"
 ---
