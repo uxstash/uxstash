@@ -4,7 +4,9 @@ class Stash extends React.Component {
   render() {
     return (
       <main>
-        stash
+        <div className="container">
+        
+        </div>
       </main>
     )
   }

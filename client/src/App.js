@@ -14,6 +14,9 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/strategy" component={Stash} />
           <Route path="/management" component={Stash} />
+          <Route path="/architecture" component={Stash} />
+          <Route path="/development" component={Stash} />
+          <Route path="/design" component={Stash} />
         </Switch>
       </div>
     );
