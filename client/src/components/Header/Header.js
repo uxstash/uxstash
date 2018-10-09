@@ -46,7 +46,7 @@ class Header extends React.Component {
               <NavItem
                 title="Development"
                 description="Code &amp; Navigation"
-                to="/develop"
+                to="/development"
               />
               <NavItem
                 title="Design"
