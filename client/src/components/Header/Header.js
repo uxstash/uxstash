@@ -28,7 +28,7 @@ class Header extends React.Component {
             <ul>
               <li className="brand">
                 <NavLink to="/" className="logo">
-                  <img src="ux_stash.svg" />
+                  <img src="ux_stash.svg" alt="UX Stash Logo" />
                   UX Stash
                 </NavLink>
               </li>
