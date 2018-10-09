@@ -1,14 +1,12 @@
-import React from 'react';
+import React from "react";
 
 class Stash extends React.Component {
   render() {
     return (
       <main>
-        <div className="container">
-        
-        </div>
+        <div className="container" />
       </main>
-    )
+    );
   }
 }
 

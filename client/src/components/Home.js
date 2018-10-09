@@ -1,14 +1,12 @@
-import React from 'react';
+import React from "react";
 
 class Home extends React.Component {
   render() {
     return (
       <main>
-        <div className="container">
-          ux stash
-        </div>
+        <div className="container">ux stash</div>
       </main>
-    )
+    );
   }
 }
 

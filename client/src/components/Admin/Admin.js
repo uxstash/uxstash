@@ -40,7 +40,6 @@ class Admin extends React.Component {
   }
 
   render() {
-
     let user = this.state.user;
 
     let authButton = user ? (
@@ -49,15 +48,14 @@ class Admin extends React.Component {
       <button onClick={this.login}> Log In </button>
     );
 
-    let userEmail = user ? user.email : '';
+    let userEmail = user ? user.email : "";
 
     return (
       <main>
         <div className="container">
           {userEmail}
-          <br/>
+          <br />
           {authButton}
-
         </div>
       </main>
     );

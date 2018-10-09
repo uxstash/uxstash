@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React, { Component } from "react";
+import { Route, Switch } from "react-router-dom";
 
-import Header from './components/Header/Header';
-import Home from './components/Home';
-import Stash from './components/Stash/Stash';
-import Admin from './components/Admin/Admin';
+import Header from "./components/Header/Header";
+import Home from "./components/Home";
+import Stash from "./components/Stash/Stash";
+import Admin from "./components/Admin/Admin";
 
 class App extends Component {
   render() {
