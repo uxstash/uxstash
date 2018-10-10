@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavItem should render correctly with no props 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      "/strategy",
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "ritxki",
+            "pathname": "/strategy",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "ritxki",
+          "pathname": "/strategy",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Route
+      render={[Function]}
+    >
+      <withRouter(NavItem)>
+        <Route>
+          <NavItem
+            description=""
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "key": "ritxki",
+                    "pathname": "/strategy",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "key": "ritxki",
+                  "pathname": "/strategy",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "key": "ritxki",
+                "pathname": "/strategy",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": false,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+            title=""
+            to="/"
+          >
+            <li
+              className=""
+            >
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/"
+              >
+                <Route
+                  path="\\\\/"
+                >
+                  <Link
+                    aria-current="page"
+                    className="active"
+                    replace={false}
+                    style={Object {}}
+                    to="/"
+                  >
+                    <a
+                      aria-current="page"
+                      className="active"
+                      href="/"
+                      onClick={[Function]}
+                      style={Object {}}
+                    >
+                      <small />
+                    </a>
+                  </Link>
+                </Route>
+              </NavLink>
+            </li>
+          </NavItem>
+        </Route>
+      </withRouter(NavItem)>
+    </Route>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`NavItem should render correctly with props 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      "/testpath",
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "fm4anh",
+            "pathname": "/testpath",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "fm4anh",
+          "pathname": "/testpath",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Route
+      render={[Function]}
+    >
+      <withRouter(NavItem)
+        description="test description"
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "key": "fm4anh",
+                "pathname": "/testpath",
+                "search": "",
+                "state": undefined,
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 0,
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "fm4anh",
+              "pathname": "/testpath",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "key": "fm4anh",
+            "pathname": "/testpath",
+            "search": "",
+            "state": undefined,
+          }
+        }
+        match={
+          Object {
+            "isExact": false,
+            "params": Object {},
+            "path": "/",
+            "url": "/",
+          }
+        }
+        title="test title"
+        to="/testpath"
+      >
+        <Route>
+          <NavItem
+            description="test description"
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "key": "fm4anh",
+                    "pathname": "/testpath",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "key": "fm4anh",
+                  "pathname": "/testpath",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "key": "fm4anh",
+                "pathname": "/testpath",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": false,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+            title="test title"
+            to="/testpath"
+          >
+            <li
+              className="active"
+            >
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/testpath"
+              >
+                <Route
+                  path="\\\\/testpath"
+                >
+                  <Link
+                    aria-current="page"
+                    className="active"
+                    replace={false}
+                    style={Object {}}
+                    to="/testpath"
+                  >
+                    <a
+                      aria-current="page"
+                      className="active"
+                      href="/testpath"
+                      onClick={[Function]}
+                      style={Object {}}
+                    >
+                      test title
+                      <small>
+                        test description
+                      </small>
+                    </a>
+                  </Link>
+                </Route>
+              </NavLink>
+            </li>
+          </NavItem>
+        </Route>
+      </withRouter(NavItem)>
+    </Route>
+  </Router>
+</MemoryRouter>
+`;
