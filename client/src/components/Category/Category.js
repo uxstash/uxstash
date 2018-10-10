@@ -4,7 +4,6 @@ import stashes from "./stash_data";
 
 const StashCard = props => {
   const { title, description, articles } = props.stash;
-  console.log("stash card");
   return (
     <div>
       <h3>
