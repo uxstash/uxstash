@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink, withRouter } from "react-router-dom";
+import PropTypes from "prop-types";
 
 export const NavItem = props => {
   return (
@@ -10,6 +11,12 @@ export const NavItem = props => {
       </NavLink>
     </li>
   );
+};
+
+NavItem.defaultProps = {
+  to: "/",
+  title: "",
+  description: ""
 };
 
 export default withRouter(NavItem);
