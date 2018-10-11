@@ -26,27 +26,32 @@ exports[`Header should render correctly in debug mode 1`] = `
           </NavLink>
         </li>
         <withRouter(NavItem)
-          description="Objectives & Needs"
+          key="0"
+          subtitle="Needs & Objectives"
           title="Strategy"
           to="/strategy"
         />
         <withRouter(NavItem)
-          description="Specs & Requirements"
+          key="1"
+          subtitle="Specs & Requirements"
           title="Management"
           to="/management"
         />
         <withRouter(NavItem)
-          description="Structure & Interaction"
+          key="2"
+          subtitle="Structure & Interaction"
           title="Architecture"
           to="/architecture"
         />
         <withRouter(NavItem)
-          description="Code & Navigation"
+          key="3"
+          subtitle="Code & Navigation"
           title="Development"
           to="/development"
         />
         <withRouter(NavItem)
-          description="Visuals & Needs"
+          key="4"
+          subtitle="Visuals & Needs"
           title="Design"
           to="/design"
         />
@@ -82,27 +87,32 @@ exports[`Header should render correctly with no props 1`] = `
           </NavLink>
         </li>
         <withRouter(NavItem)
-          description="Objectives & Needs"
+          key="0"
+          subtitle="Needs & Objectives"
           title="Strategy"
           to="/strategy"
         />
         <withRouter(NavItem)
-          description="Specs & Requirements"
+          key="1"
+          subtitle="Specs & Requirements"
           title="Management"
           to="/management"
         />
         <withRouter(NavItem)
-          description="Structure & Interaction"
+          key="2"
+          subtitle="Structure & Interaction"
           title="Architecture"
           to="/architecture"
         />
         <withRouter(NavItem)
-          description="Code & Navigation"
+          key="3"
+          subtitle="Code & Navigation"
           title="Development"
           to="/development"
         />
         <withRouter(NavItem)
-          description="Visuals & Needs"
+          key="4"
+          subtitle="Visuals & Needs"
           title="Design"
           to="/design"
         />

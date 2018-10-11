@@ -25,7 +25,7 @@ describe("NavItem", () => {
       </MemoryRouter>
     );
 
-    expect(component).toMatchSnapshot();
+    expect(component.find("li")).toMatchSnapshot();
   });
 });
 
@@ -36,7 +36,6 @@ describe("NavItem", () => {
         <Route render={props => <NavItem />} />
       </MemoryRouter>
     );
-    console.log(component.debug());
-    expect(component).toMatchSnapshot();
+    expect(component.find("li")).toMatchSnapshot();
   });
 });
