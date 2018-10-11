@@ -1,6 +1,6 @@
 import React from "react";
-import categories from "./categories";
-import stashes from "./stash_data";
+import categories from "../../data/categories";
+import stashes from "../../data/stashes";
 
 const StashCard = props => {
   const { title, description, articles } = props.stash;
