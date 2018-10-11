@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import NavItem from "./NavItem";
 import "./header.scss";
+import categories from "../../data/categories";
 
 class Header extends React.Component {
   render() {
@@ -16,31 +17,16 @@ class Header extends React.Component {
                   UX Stash
                 </NavLink>
               </li>
-              <NavItem
-                title="Strategy"
-                description="Objectives &amp; Needs"
-                to="/strategy"
-              />
-              <NavItem
-                title="Management"
-                description="Specs &amp; Requirements"
-                to="/management"
-              />
-              <NavItem
-                title="Architecture"
-                description="Structure &amp; Interaction"
-                to="/architecture"
-              />
-              <NavItem
-                title="Development"
-                description="Code &amp; Navigation"
-                to="/development"
-              />
-              <NavItem
-                title="Design"
-                description="Visuals &amp; Needs"
-                to="/design"
-              />
+              {categories.map((category, index) => {
+                return (
+                  <NavItem
+                    title={category.title}
+                    subtitle={category.subtitle}
+                    to={`/${category.title.toLowerCase()}`}
+                    key={index}
+                  />
+                );
+              })}
             </ul>
           </nav>
         </div>
