@@ -1,0 +1,31 @@
+@import '../../styles/sass/variables';
+
+.stash-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+}
+
+.stash-card {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  flex-basis: 33.33333333%;
+  max-width: 33.33333333%;
+
+  h3 {
+    font-weight: normal;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid $off-white;
+
+    small {
+      display: block;
+    }
+  }
+
+  p {
+    color: $off-white;
+    opacity: .6;
+  }
+}

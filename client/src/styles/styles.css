@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  box-sizing: border-box; }
+
 body {
   margin: 0;
   padding: 0;
@@ -21,3 +24,10 @@ body {
 a {
   color: #fffae1;
   text-decoration: none; }
+
+a small,
+h3 small {
+  display: block;
+  text-transform: uppercase;
+  font-size: .7em;
+  opacity: .6; }

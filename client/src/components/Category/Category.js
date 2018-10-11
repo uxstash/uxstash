@@ -1,14 +1,15 @@
 import React from "react";
 import categories from "../../data/categories";
 import stashes from "../../data/stashes";
+import "./category.scss";
 
 const StashCard = props => {
   const { title, description, articles } = props.stash;
   return (
-    <div>
+    <div className="stash-card">
       <h3>
         {title}
-        <small>{articles.length}</small>
+        <small>{articles.length} resources</small>
       </h3>
       <p>{description}</p>
     </div>
@@ -76,9 +77,11 @@ class Category extends React.Component {
           <p>{description}</p>
         </div>
         <div className="container">
-          {this.state.stashes.map((stash, index) => (
-            <StashCard stash={stash} key={index} />
-          ))}
+          <div className="stash-list">
+            {this.state.stashes.map((stash, index) => (
+              <StashCard stash={stash} key={index} />
+            ))}
+          </div>
         </div>
       </main>
     );
