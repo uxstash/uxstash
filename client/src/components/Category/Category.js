@@ -22,7 +22,7 @@ class Category extends React.Component {
     super(props);
 
     const categoryAndStashes = this.getCategoryAndStashes(
-      props.location.pathname.substring(1)
+      props.match.params.category
     );
 
     this.state = categoryAndStashes;
@@ -31,7 +31,7 @@ class Category extends React.Component {
   componentWillReceiveProps(nextProps) {
     // get new category info
     const { category, stashes } = this.getCategoryAndStashes(
-      nextProps.location.pathname.substring(1)
+      nextProps.match.params.category
     );
     this.setState({
       category,

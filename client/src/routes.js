@@ -11,13 +11,9 @@ const Routes = () => (
   <App>
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/stash/:id" component={Stash} />
-      <Route path="/strategy" component={Category} />
-      <Route path="/management" component={Category} />
-      <Route path="/architecture" component={Category} />
-      <Route path="/development" component={Category} />
-      <Route path="/design" component={Category} />
       <Route path="/admin" component={Admin} />
+      <Route path="/stash/:id" component={Stash} />
+      <Route path="/:category" component={Category} />
     </Switch>
   </App>
 );
