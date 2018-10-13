@@ -20,7 +20,7 @@ exports[`Header should render correctly in debug mode 1`] = `
           >
             <img
               alt="UX Stash Logo"
-              src="ux_stash.svg"
+              src="/ux_stash.svg"
             />
             UX Stash
           </NavLink>
@@ -81,7 +81,7 @@ exports[`Header should render correctly with no props 1`] = `
           >
             <img
               alt="UX Stash Logo"
-              src="ux_stash.svg"
+              src="/ux_stash.svg"
             />
             UX Stash
           </NavLink>
