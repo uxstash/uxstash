@@ -1,5 +1,6 @@
 export default [
   {
+    id: "1",
     title: "80/20 rule",
     category: "Strategy",
     description:
@@ -29,6 +30,7 @@ export default [
     ]
   },
   {
+    id: "2",
     title: "AB / Multivariate Testing",
     category: "Management",
     description:
@@ -59,6 +61,7 @@ export default [
     ]
   },
   {
+    id: "3",
     title: "80/20 rule",
     category: "Strategy",
     description:
@@ -88,6 +91,7 @@ export default [
     ]
   },
   {
+    id: "4",
     title: "AB / Multivariate Testing",
     category: "Management",
     description:
@@ -118,6 +122,7 @@ export default [
     ]
   },
   {
+    id: "5",
     title: "80/20 rule",
     category: "Strategy",
     description:
@@ -147,6 +152,7 @@ export default [
     ]
   },
   {
+    id: "6",
     title: "AB / Multivariate Testing",
     category: "Management",
     description:
@@ -177,6 +183,7 @@ export default [
     ]
   },
   {
+    id: "7",
     title: "80/20 rule",
     category: "Strategy",
     description:
@@ -206,6 +213,7 @@ export default [
     ]
   },
   {
+    id: "8",
     title: "AB / Multivariate Testing",
     category: "Management",
     description:

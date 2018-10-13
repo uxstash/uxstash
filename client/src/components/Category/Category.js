@@ -2,17 +2,18 @@ import React from "react";
 import categories from "../../data/categories";
 import stashes from "../../data/stashes";
 import "./category.scss";
+import { NavLink } from "react-router-dom";
 
 const StashCard = props => {
-  const { title, description, articles } = props.stash;
+  const { title, description, articles, id } = props.stash;
   return (
-    <div className="stash-card">
+    <NavLink to={`/stash/${id}`} className="stash-card">
       <h3>
         {title}
         <small>{articles.length} resources</small>
       </h3>
       <p>{description}</p>
-    </div>
+    </NavLink>
   );
 };
 
