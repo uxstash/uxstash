@@ -18,25 +18,29 @@ const StashCard = props => {
 };
 
 class Category extends React.Component {
-  constructor(props) {
-    super(props);
+  state = {
+    category: {},
+    stashes: []
+  };
 
+  componentDidMount() {
     const categoryAndStashes = this.getCategoryAndStashes(
-      props.match.params.category
+      this.props.match.params.category
     );
 
-    this.state = categoryAndStashes;
+    this.setState(categoryAndStashes);
   }
 
-  componentWillReceiveProps(nextProps) {
-    // get new category info
-    const { category, stashes } = this.getCategoryAndStashes(
-      nextProps.match.params.category
-    );
-    this.setState({
-      category,
-      stashes
-    });
+  componentDidUpdate(prevProps) {
+    if (this.props.match.params.category !== prevProps.match.params.category) {
+      const { category, stashes } = this.getCategoryAndStashes(
+        this.props.match.params.category
+      );
+      this.setState({
+        category,
+        stashes
+      });
+    }
   }
 
   getCategoryAndStashes(categoryFromPath) {
