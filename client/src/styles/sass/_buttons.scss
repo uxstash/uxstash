@@ -1,0 +1,18 @@
+.btn {
+  padding: .5rem .8rem;
+  background: $steel-gray;
+  border: 2px solid $steel-gray;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-primary {
+  background: $off-white;
+  border-color: $off-white;
+  color: #212121;
+}
