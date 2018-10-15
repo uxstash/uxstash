@@ -15,41 +15,9 @@
 
 # Ignore uploaded files in development
 /storage/*
+!/storage/.keep
 
-/node_modules
-/yarn-error.log
-
-/public/assets
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-
-
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-#keys
-/src/config/dev.js
-/src/config/prod.js
-
-
