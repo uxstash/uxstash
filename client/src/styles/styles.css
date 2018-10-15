@@ -117,6 +117,8 @@ table {
     padding-right: 1rem; }
   .row .col-3 {
     max-width: 25%; }
+  .row .col-9 {
+    max-width: 75%; }
 
 * {
   box-sizing: border-box; }

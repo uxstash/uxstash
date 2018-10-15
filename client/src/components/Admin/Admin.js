@@ -1,6 +1,7 @@
 import React from "react";
 import { Auth, provider } from "../../config/firebase";
 import AddArticle from "./components/AddArticle";
+import ArticleToStash from "./components/ArticleToStash";
 
 class Admin extends React.Component {
   constructor() {
@@ -65,6 +66,7 @@ class Admin extends React.Component {
               <AddArticle />
             </div>
           </div>
+          <ArticleToStash />
         </div>
       </main>
     );
