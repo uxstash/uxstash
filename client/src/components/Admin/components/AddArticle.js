@@ -83,11 +83,6 @@ const AddArticle = () => {
               />
             </div>
 
-            {/* <div className="form-group">
-            <label htmlFor="date">Date Published</label>
-            <Field className="form-input" type="date" name="date" id="date" />
-            <ErrorMessage className="form-error" name="date" component="div" />
-          </div> */}
             <div className="form-group">
               <label htmlFor="date">Date Published</label>
               <DatePicker
