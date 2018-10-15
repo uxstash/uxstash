@@ -11,6 +11,7 @@ const itemSource = {
     return item;
   },
   endDrag(props, monitor, component) {
+    // TODO: handle null dropresult
     const stash = monitor.getDropResult();
     return props.handleDrop(props.title, stash.title);
   }

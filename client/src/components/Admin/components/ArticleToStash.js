@@ -36,9 +36,7 @@ class ArticleToStash extends React.Component {
           <div className="stash-list row">
             {stashes.map((stash, index) => (
               <div className="col col-3" key={index}>
-                <div className="stash">
-                  <Stash title={stash.title} />
-                </div>
+                <Stash title={stash.title} />
               </div>
             ))}
           </div>
