@@ -1,4 +1,4 @@
-@import '../../styles/sass/variables';
+@import "../../styles/variables";
 
 .main-header {
   margin-bottom: 3rem;
@@ -10,11 +10,10 @@
     li {
       flex: 1;
       margin-left: 4rem;
-      margin-top: .5rem;
+      margin-top: 0.5rem;
       border-bottom: 2px solid transparent;
 
       &:not(.brand) {
-
         &:hover,
         &:focus,
         &.active {
@@ -42,5 +41,4 @@
       margin-right: 1rem;
     }
   }
-
 }
