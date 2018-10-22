@@ -27,17 +27,17 @@ exports[`Stash should render correctly 1`] = `
         className="table-row table-header"
       >
         <div
-          className="table-col x2"
+          className="table-cell x2"
         >
           About
         </div>
         <div
-          className="table-col"
+          className="table-cell"
         >
           Source
         </div>
         <div
-          className="table-col"
+          className="table-cell"
         >
           Date
         </div>
@@ -47,7 +47,7 @@ exports[`Stash should render correctly 1`] = `
         key="0"
       >
         <div
-          className="table-col x2"
+          className="table-cell x2"
         >
           <a
             href="http://www.webdesignerdepot.com/2011/02/the-8020-rule-applied-to-web-design/"
@@ -58,12 +58,12 @@ exports[`Stash should render correctly 1`] = `
           </a>
         </div>
         <div
-          className="table-col"
+          className="table-cell"
         >
           WebdesignerDepot
         </div>
         <div
-          className="table-col"
+          className="table-cell"
         >
           date
         </div>
@@ -73,7 +73,7 @@ exports[`Stash should render correctly 1`] = `
         key="1"
       >
         <div
-          className="table-col x2"
+          className="table-cell x2"
         >
           <a
             href="https://uxmag.com/articles/pareto-principle-based-user-research"
@@ -84,12 +84,12 @@ exports[`Stash should render correctly 1`] = `
           </a>
         </div>
         <div
-          className="table-col"
+          className="table-cell"
         >
           UX Magazine
         </div>
         <div
-          className="table-col"
+          className="table-cell"
         >
           date
         </div>
@@ -99,7 +99,7 @@ exports[`Stash should render correctly 1`] = `
         key="2"
       >
         <div
-          className="table-col x2"
+          className="table-cell x2"
         >
           <a
             href="http://www.keepitusable.com/blog/?tag=8020-rule"
@@ -110,12 +110,12 @@ exports[`Stash should render correctly 1`] = `
           </a>
         </div>
         <div
-          className="table-col"
+          className="table-cell"
         >
           Keep It Usable
         </div>
         <div
-          className="table-col"
+          className="table-cell"
         >
           date
         </div>
@@ -125,7 +125,7 @@ exports[`Stash should render correctly 1`] = `
         key="3"
       >
         <div
-          className="table-col x2"
+          className="table-cell x2"
         >
           <a
             href="http://www.measuringu.com/blog/pareto-ux.php"
@@ -136,12 +136,12 @@ exports[`Stash should render correctly 1`] = `
           </a>
         </div>
         <div
-          className="table-col"
+          className="table-cell"
         >
           Measuring U
         </div>
         <div
-          className="table-col"
+          className="table-cell"
         >
           date
         </div>

@@ -141,14 +141,28 @@ ul {
 .table-row {
   display: flex;
   width: 100%; }
-  .table-row .table-col {
-    flex: 1; }
-    .table-row .table-col.x2 {
+  .table-row .table-cell {
+    flex: 1;
+    padding: 1rem; }
+    .table-row .table-cell.x2 {
       flex: 2; }
 
 body {
   color: #fffae1;
   font-family: "Roboto", sans-serif; }
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem; }
+
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.2rem; }
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem; }
 
 a {
   color: #fffae1;
