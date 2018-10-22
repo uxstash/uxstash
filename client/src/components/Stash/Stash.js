@@ -27,7 +27,10 @@ class Stash extends React.Component {
       <main>
         <div className="container">
           <h1>
-            <Link to={`/${category && category.toLowerCase()}`}>
+            <Link
+              className="btn-back"
+              to={`/${category && category.toLowerCase()}`}
+            >
               <IoMdArrowBack />
             </Link>
             {title}
@@ -36,22 +39,22 @@ class Stash extends React.Component {
 
           <div className="table">
             <div className="table-row table-header">
-              <div className="table-col x2">About</div>
-              <div className="table-col">Source</div>
-              <div className="table-col">Date</div>
+              <div className="table-cell x2">About</div>
+              <div className="table-cell">Source</div>
+              <div className="table-cell">Date</div>
             </div>
             {articles &&
               articles.map((article, index) => {
                 const { url, title, source } = article;
                 return (
-                  <div className="table-row" key={index}>
-                    <div className="table-col x2">
+                  <div className="table-row table-body" key={index}>
+                    <div className="table-cell x2">
                       <a href={url} target="_blank" rel="noopener noreferrer">
                         {title}
                       </a>
                     </div>
-                    <div className="table-col">{source}</div>
-                    <div className="table-col">date</div>
+                    <div className="table-cell">{source}</div>
+                    <div className="table-cell">date</div>
                   </div>
                 );
               })}

@@ -3,6 +3,22 @@ body {
   font-family: $font-family-base;
 }
 
+h1 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 a {
   color: $text-color;
   text-decoration: none;
