@@ -1,4 +1,4 @@
-class ArticlesController < ApplicationController
+class Api::V1::ArticlesController < ApplicationController
   before_action :find_article, :only => [:show, :update, :destroy]
 
   def index
@@ -28,7 +28,7 @@ class ArticlesController < ApplicationController
   private
 
   def article_params
-    params.permit(:title, :author, :url, :date)
+    params.require(:article).permit(:title, :author, :url, :date)
   end
 
   def find_article
