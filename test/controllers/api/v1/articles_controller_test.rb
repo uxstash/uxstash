@@ -1,13 +1,8 @@
 require 'test_helper'
 
-class ArticlesControllerTest < ActionDispatch::IntegrationTest
+class Api::V1::ArticlesControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
     get articles_index_url
-    assert_response :success
-  end
-
-  test "should get new" do
-    get articles_new_url
     assert_response :success
   end
 
@@ -18,11 +13,6 @@ class ArticlesControllerTest < ActionDispatch::IntegrationTest
 
   test "should get create" do
     get articles_create_url
-    assert_response :success
-  end
-
-  test "should get edit" do
-    get articles_edit_url
     assert_response :success
   end
 
