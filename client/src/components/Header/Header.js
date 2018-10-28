@@ -1,10 +1,32 @@
-import React from "react";
+import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import NavItem from "./NavItem";
 import "./header.scss";
-import categories from "../../data/categories";
 
-class Header extends React.Component {
+class Header extends Component {
+  state = {
+    categories: []
+  }
+
+  componentDidMount() {
+    this.getCategories()
+  }
+
+  fetch(endpoint) {
+    return window.fetch(endpoint)
+      .then(response => response.json())
+      .catch(error => console.log(error))
+  }
+
+  getCategories() {
+    this.fetch('/api/v1/categories')
+      .then(categories => {
+        if (categories.length) {
+          this.setState({categories})
+        }
+      })
+  }
+
   render() {
     return (
       <header className="main-header">
@@ -17,12 +39,12 @@ class Header extends React.Component {
                   UX Stash
                 </NavLink>
               </li>
-              {categories.map((category, index) => {
+              {this.state.categories.map((category, index) => {
                 return (
                   <NavItem
-                    title={category.title}
-                    subtitle={category.subtitle}
-                    to={`/${category.title.toLowerCase()}`}
+                    title={category.name}
+                    subtitle={category.description}
+                    to={`/${category.name.toLowerCase()}`}
                     key={index}
                   />
                 );
