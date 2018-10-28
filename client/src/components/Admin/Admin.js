@@ -1,5 +1,7 @@
 import React from "react";
 import { Auth, provider } from "../../config/firebase";
+import AddArticle from "./components/AddArticle";
+import ArticleToStash from "./components/ArticleToStash";
 
 class Admin extends React.Component {
   constructor() {
@@ -43,9 +45,13 @@ class Admin extends React.Component {
     let user = this.state.user;
 
     let authButton = user ? (
-      <button onClick={this.logout}> Log Out </button>
+      <button className="btn btn-sm" onClick={this.logout}>
+        Log Out
+      </button>
     ) : (
-      <button onClick={this.login}> Log In </button>
+      <button className="btn btn-sm" onClick={this.login}>
+        Log In
+      </button>
     );
 
     let userEmail = user ? user.email : "";
@@ -53,9 +59,14 @@ class Admin extends React.Component {
     return (
       <main>
         <div className="container">
-          {userEmail}
-          <br />
+          {userEmail ? `Logged in as ${userEmail} ` : ""}
           {authButton}
+          <div className="row">
+            <div className="col col-3">
+              <AddArticle />
+            </div>
+          </div>
+          <ArticleToStash />
         </div>
       </main>
     );

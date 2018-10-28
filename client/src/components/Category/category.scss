@@ -1,15 +1,15 @@
-@import '../../styles/sass/variables';
+@import "../../styles/variables";
 
 .stash-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -.5rem;
-  margin-right: -.5rem;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
 
 .stash-card {
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   flex-basis: 33.33333333%;
   max-width: 33.33333333%;
 
@@ -26,6 +26,6 @@
 
   p {
     color: $off-white;
-    opacity: .6;
+    opacity: 0.6;
   }
 }

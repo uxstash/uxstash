@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stash should render correctly 1`] = `
+<main>
+  <div
+    className="container"
+  >
+    <h1>
+      <Link
+        className="btn-back"
+        replace={false}
+        to="/strategy"
+      >
+        <IoMdArrowBack />
+      </Link>
+      80/20 rule
+    </h1>
+    <p
+      className="description"
+    >
+      The Pareto principle (also known as the 80–20 rule, the law of the vital few, and the principle of factor sparsity) states that, for many events, roughly 80% of the effects come from 20% of the causes.
+    </p>
+    <div
+      className="table"
+    >
+      <div
+        className="table-row table-header"
+      >
+        <div
+          className="table-cell x2"
+        >
+          About
+        </div>
+        <div
+          className="table-cell"
+        >
+          Source
+        </div>
+        <div
+          className="table-cell"
+        >
+          Date
+        </div>
+      </div>
+      <div
+        className="table-row table-body"
+        key="0"
+      >
+        <div
+          className="table-cell x2"
+        >
+          <a
+            href="http://www.webdesignerdepot.com/2011/02/the-8020-rule-applied-to-web-design/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            The 80/20 Rule Applied to Web Design
+          </a>
+        </div>
+        <div
+          className="table-cell"
+        >
+          WebdesignerDepot
+        </div>
+        <div
+          className="table-cell"
+        >
+          date
+        </div>
+      </div>
+      <div
+        className="table-row table-body"
+        key="1"
+      >
+        <div
+          className="table-cell x2"
+        >
+          <a
+            href="https://uxmag.com/articles/pareto-principle-based-user-research"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Pareto Principle-Based User Research
+          </a>
+        </div>
+        <div
+          className="table-cell"
+        >
+          UX Magazine
+        </div>
+        <div
+          className="table-cell"
+        >
+          date
+        </div>
+      </div>
+      <div
+        className="table-row table-body"
+        key="2"
+      >
+        <div
+          className="table-cell x2"
+        >
+          <a
+            href="http://www.keepitusable.com/blog/?tag=8020-rule"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Using the Pareto Principle to improve your user experience
+          </a>
+        </div>
+        <div
+          className="table-cell"
+        >
+          Keep It Usable
+        </div>
+        <div
+          className="table-cell"
+        >
+          date
+        </div>
+      </div>
+      <div
+        className="table-row table-body"
+        key="3"
+      >
+        <div
+          className="table-cell x2"
+        >
+          <a
+            href="http://www.measuringu.com/blog/pareto-ux.php"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Applying The Pareto Principle To The User Experience
+          </a>
+        </div>
+        <div
+          className="table-cell"
+        >
+          Measuring U
+        </div>
+        <div
+          className="table-cell"
+        >
+          date
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;
