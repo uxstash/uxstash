@@ -6,14 +6,18 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+`2.5.1`
 
 * System dependencies
+`rails 5.2.1`
+`postgresql`
 
 * Configuration
 
 * Database creation
 
 * Database initialization
+`rake db:seed`
 
 * How to run the test suite
 
