@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly in debug mode 1`] = `
+<header
+  className="main-header"
+>
+  <div
+    className="container"
+  >
+    <nav>
+      <ul>
+        <li
+          className="brand"
+        >
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="logo"
+            to="/"
+          >
+            <img
+              alt="UX Stash Logo"
+              src="/ux_stash.svg"
+            />
+            UX Stash
+          </NavLink>
+        </li>
+        <withRouter(NavItem)
+          key="0"
+          subtitle="Needs & Objectives"
+          title="Strategy"
+          to="/strategy"
+        />
+        <withRouter(NavItem)
+          key="1"
+          subtitle="Specs & Requirements"
+          title="Management"
+          to="/management"
+        />
+        <withRouter(NavItem)
+          key="2"
+          subtitle="Structure & Interaction"
+          title="Architecture"
+          to="/architecture"
+        />
+        <withRouter(NavItem)
+          key="3"
+          subtitle="Code & Navigation"
+          title="Development"
+          to="/development"
+        />
+        <withRouter(NavItem)
+          key="4"
+          subtitle="Visuals & Needs"
+          title="Design"
+          to="/design"
+        />
+      </ul>
+    </nav>
+  </div>
+</header>
+`;
+
+exports[`Header should render correctly with no props 1`] = `
+<header
+  className="main-header"
+>
+  <div
+    className="container"
+  >
+    <nav>
+      <ul>
+        <li
+          className="brand"
+        >
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="logo"
+            to="/"
+          >
+            <img
+              alt="UX Stash Logo"
+              src="/ux_stash.svg"
+            />
+            UX Stash
+          </NavLink>
+        </li>
+        <withRouter(NavItem)
+          key="0"
+          subtitle="Needs & Objectives"
+          title="Strategy"
+          to="/strategy"
+        />
+        <withRouter(NavItem)
+          key="1"
+          subtitle="Specs & Requirements"
+          title="Management"
+          to="/management"
+        />
+        <withRouter(NavItem)
+          key="2"
+          subtitle="Structure & Interaction"
+          title="Architecture"
+          to="/architecture"
+        />
+        <withRouter(NavItem)
+          key="3"
+          subtitle="Code & Navigation"
+          title="Development"
+          to="/development"
+        />
+        <withRouter(NavItem)
+          key="4"
+          subtitle="Visuals & Needs"
+          title="Design"
+          to="/design"
+        />
+      </ul>
+    </nav>
+  </div>
+</header>
+`;

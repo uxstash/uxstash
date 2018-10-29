@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+  width: 100%;
+  margin-left: -1rem;
+  margin-right: -1rem;
+
+  .col {
+    flex: 1;
+    flex-basis: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .col-3 {
+    max-width: 25%;
+  }
+
+  .col-9 {
+    max-width: 75%;
+  }
+}

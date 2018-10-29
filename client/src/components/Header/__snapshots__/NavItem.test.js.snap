@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavItem should render correctly with no props 1`] = `
+<li
+  className=""
+>
+  <NavLink
+    activeClassName="active"
+    aria-current="page"
+    to="/"
+  >
+    <Route
+      path="\\\\/"
+    >
+      <Link
+        aria-current="page"
+        className="active"
+        replace={false}
+        style={Object {}}
+        to="/"
+      >
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <small />
+        </a>
+      </Link>
+    </Route>
+  </NavLink>
+</li>
+`;
+
+exports[`NavItem should render correctly with props 1`] = `
+<li
+  className="active"
+>
+  <NavLink
+    activeClassName="active"
+    aria-current="page"
+    to="/testpath"
+  >
+    <Route
+      path="\\\\/testpath"
+    >
+      <Link
+        aria-current="page"
+        className="active"
+        replace={false}
+        style={Object {}}
+        to="/testpath"
+      >
+        <a
+          aria-current="page"
+          className="active"
+          href="/testpath"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          test title
+          <small />
+        </a>
+      </Link>
+    </Route>
+  </NavLink>
+</li>
+`;

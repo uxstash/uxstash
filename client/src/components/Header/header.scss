@@ -1,0 +1,44 @@
+@import "../../styles/variables";
+
+.main-header {
+  margin-bottom: 3rem;
+
+  nav ul {
+    list-style: none;
+    display: flex;
+
+    li {
+      flex: 1;
+      margin-left: 4rem;
+      margin-top: 0.5rem;
+      border-bottom: 2px solid transparent;
+
+      &:not(.brand) {
+        &:hover,
+        &:focus,
+        &.active {
+          border-bottom-color: $off-white;
+        }
+      }
+
+      &.brand {
+        margin-top: 0;
+        margin-left: 0;
+      }
+
+      a {
+        display: inline-block;
+        padding: 1rem 0;
+      }
+    }
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 1rem;
+    }
+  }
+}
