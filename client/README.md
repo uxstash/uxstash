@@ -119,7 +119,7 @@ When you run `create-react-app`, it always creates the project with the latest v
 
 To update an existing project to a new version of `react-scripts`, [open the changelog](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md), find the version you’re currently on (check `package.json` in this folder if you’re not sure), and apply the migration instructions for the newer versions.
 
-In most cases bumping the `react-scripts` version in `package.json` and running `npm install` (or `yarn install`) in this folder should be enough, but it’s good to consult the [changelog](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md) for potential breaking changes.
+In most cases bumping the `react-scripts` version in `package.json` and running `npm install` in this folder should be enough, but it’s good to consult the [changelog](https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md) for potential breaking changes.
 
 We commit to keeping the breaking changes minimal so you can upgrade `react-scripts` painlessly.
 
@@ -311,12 +311,6 @@ To format our code whenever we make a commit in git, we need to install the foll
 npm install --save husky lint-staged prettier
 ```
 
-Alternatively you may use `yarn`:
-
-```sh
-yarn add husky lint-staged prettier
-```
-
 - `husky` makes it easy to use githooks as if they are npm scripts.
 - `lint-staged` allows us to run scripts on staged files in git. See this [blog post about lint-staged to learn more about it](https://medium.com/@okonetchnikov/make-linting-great-again-f3890e1ad6b8).
 - `prettier` is the JavaScript formatter we will run before commits.
@@ -368,12 +362,6 @@ The generated project includes React and ReactDOM as dependencies. It also inclu
 
 ```sh
 npm install --save react-router-dom
-```
-
-Alternatively you may use `yarn`:
-
-```sh
-yarn add react-router-dom
 ```
 
 This works for any library, not just `react-router-dom`.
@@ -576,8 +564,6 @@ To use Sass, first install `node-sass`:
 
 ```bash
 $ npm install node-sass --save
-$ # or
-$ yarn add node-sass
 ```
 
 Now you can rename `src/App.css` to `src/App.scss` and update `src/App.js` to import `src/App.scss`.
@@ -784,12 +770,6 @@ Install reactstrap and Bootstrap from npm. reactstrap does not include Bootstrap
 npm install --save reactstrap bootstrap@4
 ```
 
-Alternatively you may use `yarn`:
-
-```sh
-yarn add bootstrap@4 reactstrap
-```
-
 Import Bootstrap CSS and optionally Bootstrap theme CSS in the beginning of your `src/index.js` file:
 
 ```js
@@ -839,12 +819,12 @@ Recent versions of [Flow](https://flow.org/) work with Create React App projects
 
 To add Flow to a Create React App project, follow these steps:
 
-1. Run `npm install --save flow-bin` (or `yarn add flow-bin`).
+1. Run `npm install --save flow-bin`.
 2. Add `"flow": "flow"` to the `scripts` section of your `package.json`.
-3. Run `npm run flow init` (or `yarn flow init`) to create a [`.flowconfig` file](https://flow.org/en/docs/config/) in the root directory.
+3. Run `npm run flow init` to create a [`.flowconfig` file](https://flow.org/en/docs/config/) in the root directory.
 4. Add `// @flow` to any files you want to type check (for example, to `src/App.js`).
 
-Now you can run `npm run flow` (or `yarn flow`) to check the files for type errors.
+Now you can run `npm run flow` to check the files for type errors.
 You can optionally use an IDE like [Nuclide](https://nuclide.io/docs/languages/flow/) for a better integrated experience.
 In the future we plan to integrate it into Create React App even more closely.
 
@@ -858,12 +838,6 @@ To add it, run:
 
 ```sh
 npm install --save --dev babel-plugin-relay@dev
-```
-
-Alternatively you may use `yarn`:
-
-```sh
-yarn upgrade babel-plugin-relay@dev
 ```
 
 Then, wherever you use the `graphql` template tag, import the macro:
@@ -892,12 +866,6 @@ To add it, run:
 
 ```sh
 npm install --save react-router-dom
-```
-
-Alternatively you may use `yarn`:
-
-```sh
-yarn add react-router-dom
 ```
 
 To try it, delete all the code in `src/App.js` and replace it with any of the examples on its website. The [Basic Example](https://reacttraining.com/react-router/web/example/basic) is a good place to get started.
@@ -1187,12 +1155,10 @@ If the `proxy` option is **not** flexible enough for you, you can get direct acc
 
 You can use this feature in conjunction with the `proxy` property in `package.json`, but it is recommended you consolidate all of your logic into `src/setupProxy.js`.
 
-First, install `http-proxy-middleware` using npm or Yarn:
+First, install `http-proxy-middleware` using npm:
 
 ```bash
 $ npm install http-proxy-middleware --save
-$ # or
-$ yarn add http-proxy-middleware
 ```
 
 Next, create `src/setupProxy.js` and place the following contents in it:
@@ -1379,12 +1345,6 @@ If you’d like to test components in isolation from the child components they r
 npm install --save enzyme enzyme-adapter-react-16 react-test-renderer
 ```
 
-Alternatively you may use `yarn`:
-
-```sh
-yarn add enzyme enzyme-adapter-react-16 react-test-renderer
-```
-
 As of Enzyme 3, you will need to install Enzyme along with an Adapter corresponding to the version of React you are using. (The examples above use the adapter for React 16.)
 
 The adapter will also need to be configured in your [global setup file](#initializing-test-environment):
@@ -1444,12 +1404,6 @@ To enable this, install `jest-enzyme`:
 
 ```sh
 npm install --save jest-enzyme
-```
-
-Alternatively you may use `yarn`:
-
-```sh
-yarn add jest-enzyme
 ```
 
 Import it in [`src/setupTests.js`](#initializing-test-environment) to make its matchers available in every test:
@@ -1774,12 +1728,6 @@ First, install Styleguidist:
 npm install --save react-styleguidist
 ```
 
-Alternatively you may use `yarn`:
-
-```sh
-yarn add react-styleguidist
-```
-
 Then, add these scripts to your `package.json`:
 
 ```diff
@@ -1919,12 +1867,6 @@ To add Source map explorer to a Create React App project, follow these steps:
 
 ```sh
 npm install --save source-map-explorer
-```
-
-Alternatively you may use `yarn`:
-
-```sh
-yarn add source-map-explorer
 ```
 
 Then in `package.json`, add the following line to `scripts`:
@@ -2081,8 +2023,6 @@ For example, to create a build environment for a staging environment:
 1. Install [env-cmd](https://www.npmjs.com/package/env-cmd)
    ```sh
    $ npm install env-cmd --save
-   $ # or
-   $ yarn add env-cmd
    ```
 1. Add a new script to your `package.json`, building with your new environment:
    ```json
@@ -2214,12 +2154,6 @@ To publish it at [https://myusername.github.io/my-app](https://myusername.github
 
 ```sh
 npm install --save gh-pages
-```
-
-Alternatively you may use `yarn`:
-
-```sh
-yarn add gh-pages
 ```
 
 Add the following scripts in your `package.json`:
@@ -2436,7 +2370,7 @@ If none of these solutions help please leave a comment [in this thread](https://
 
 If you run `npm test` and the console gets stuck after printing `react-scripts test` to the console there might be a problem with your [Watchman](https://facebook.github.io/watchman/) installation as described in [facebook/create-react-app#713](https://github.com/facebook/create-react-app/issues/713).
 
-We recommend deleting `node_modules` in your project and running `npm install` (or `yarn` if you use it) first. If it doesn't help, you can try one of the numerous workarounds mentioned in these issues:
+We recommend deleting `node_modules` in your project and running `npm install` first. If it doesn't help, you can try one of the numerous workarounds mentioned in these issues:
 
 - [facebook/jest#1767](https://github.com/facebook/jest/issues/1767)
 - [facebook/watchman#358](https://github.com/facebook/watchman/issues/358)
