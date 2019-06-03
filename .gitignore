@@ -1,31 +1,3 @@
-_site/
-.sass-cache/
-.asset-cache/
-.jekyll-metadata
-
-# Ignore bundler config.
-/.bundle
-
-# Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
-
-# Ignore uploaded files in development
-/storage/*
-!/storage/.keep
-
-.byebug_history
-
-# Ignore master key for decrypting credentials and more.
-/config/master.key
-
-# Ignore public, as it is built on deploy
-# Place files for /public in /client/public
-/public
-
-## GATSBY
 # Logs
 logs
 *.log
@@ -81,6 +53,7 @@ typings/
 
 # dotenv environment variables file
 .env
+.contentful.json
 
 # gatsby files
 .cache/
