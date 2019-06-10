@@ -17,17 +17,28 @@ const theme = {
 const GlobalStyle = createGlobalStyle`
 ${ModernNormalize}
   body {
+    color: ${props => props.theme.offWhite};
     background-color: ${props => props.theme.dark};
+    font-family: 'Helvetica Neue';
   }
+`;
+
+const Container = styled.div`
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 `;
 
 function Wrapper({ children }) {
   return (
     <ThemeProvider theme={theme}>
-      <div>
+      <Container>
         <GlobalStyle />
         {children}
-      </div>
+      </Container>
     </ThemeProvider>
   );
 }
