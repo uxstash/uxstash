@@ -8,18 +8,21 @@ try {
 // Overwrite the Contentful config with environment variables if they exist
 contentfulConfig = {
   spaceId: process.env.CONTENTFUL_SPACE_ID || contentfulConfig.spaceId,
-  accessToken: process.env.CONTENTFUL_ACCESS_TOKEN || contentfulConfig.accessToken,
+  accessToken:
+    process.env.CONTENTFUL_ACCESS_TOKEN || contentfulConfig.accessToken,
 };
 
 const { spaceId, accessToken } = contentfulConfig;
 
 if (!spaceId || !accessToken) {
-  throw new Error('Contentful spaceId and the delivery token need to be provided.');
+  throw new Error(
+    'Contentful spaceId and the delivery token need to be provided.',
+  );
 }
 
 module.exports = {
   siteMetadata: {
-    title: 'Ux Stash',
+    title: 'UX Stash',
     description:
       'A hand-picked glossary of theories, tools, and principles. Curated by Alex Kale and Leandro Incetta.',
     author: '@ux_stash',
