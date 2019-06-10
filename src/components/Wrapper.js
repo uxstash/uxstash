@@ -12,6 +12,11 @@ const theme = {
   brownishPurple: '#823741',
   lightBurgundy: '#a03741',
   dark: '#263238',
+  xs: '0',
+  sm: '576px',
+  md: '768px',
+  lg: '992px',
+  xl: '1200px',
 };
 
 const GlobalStyle = createGlobalStyle`
