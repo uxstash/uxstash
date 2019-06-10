@@ -1,15 +1,24 @@
+import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
-import React from 'react';
+import styled from 'styled-components';
+import Nav from './Nav';
+
+const MainHeader = styled.header`
+  color: ${props => props.theme.offWhite};
+
+  a {
+    color: ${props => props.theme.offWhite};
+  }
+`;
 
 const Header = ({ siteTitle }) => (
-  <header>
+  <MainHeader>
     <div>
-      <h1>
-        <Link to="/">{siteTitle}</Link>
-      </h1>
+      <Link to="/">{siteTitle}</Link>
+      <Nav />
     </div>
-  </header>
+  </MainHeader>
 );
 
 Header.propTypes = {
