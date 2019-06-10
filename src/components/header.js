@@ -3,9 +3,12 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Nav from './Nav';
+import logo from '../images/ux_stash.svg';
 
 const MainHeader = styled.header`
-  color: ${props => props.theme.offWhite};
+  display: flex;
+  align-items: center;
+  margin-bottom: 94px;
 
   a {
     color: ${props => props.theme.offWhite};
@@ -14,10 +17,9 @@ const MainHeader = styled.header`
 
 const Header = ({ siteTitle }) => (
   <MainHeader>
-    <div>
-      <Link to="/">{siteTitle}</Link>
-      <Nav />
-    </div>
+    <object type="image/svg+xml" data={logo} />
+    <Link to="/">{siteTitle}</Link>
+    <Nav />
   </MainHeader>
 );
 
