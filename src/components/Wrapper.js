@@ -25,14 +25,15 @@ ${ModernNormalize}
     color: ${props => props.theme.offWhite};
     background-color: ${props => props.theme.dark};
     font-family: 'Helvetica Neue';
+    line-height: 1.2;
   }
 `;
 
 const Container = styled.div`
-  max-width: 1140px;
+  max-width: 1024px;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 42px;
+  padding-left: 42px;
   margin-right: auto;
   margin-left: auto;
 `;
