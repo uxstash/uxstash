@@ -30,7 +30,6 @@ const MainHeader = styled.header`
     color: ${props => props.theme.offWhite};
     text-decoration: none;
     font-weight: bold;
-    margin-right: 46px;
   }
 `;
 
