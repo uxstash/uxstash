@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const HeaderWrapper = styled.div`
   display: grid;
   grid-gap: 20px;
-  margin-bottom: 140px;
+  height: 400px;
   @media (min-width: ${props => props.theme.md}) {
     grid-template-columns: 1fr 1fr 1fr;
   }
