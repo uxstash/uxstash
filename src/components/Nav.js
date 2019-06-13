@@ -38,6 +38,7 @@ function Nav() {
             edges {
               node {
                 name
+                id
                 slug
                 shortDescription {
                   shortDescription
@@ -51,7 +52,7 @@ function Nav() {
         <NavBar>
           <ul>
             {data.allContentfulCategory.edges.map(category => (
-              <Link to={`/${category.node.slug}`}>
+              <Link to={`/${category.node.slug}`} key={category.node.id}>
                 <li>
                   {category.node.name}
                   <small>
