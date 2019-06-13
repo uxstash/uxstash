@@ -20,14 +20,17 @@ function IndexPage({ data }) {
         why you should take a second look at notebooks."
       />
       <GridWrapper>
-        {data.allContentfulStash.edges.map(stash => (
-          <Card
-            key={stash.node.id}
-            name={stash.node.name}
-            resourceCount={stash.node.article.length}
-            description={stash.node.description.description}
-          />
-        ))}
+        {data.allContentfulStash.edges.map(
+          stash =>
+            stash.node.article != null && (
+              <Card
+                key={stash.node.id}
+                name={stash.node.name}
+                resourceCount={stash.node.article.length}
+                description={stash.node.description.description}
+              />
+            )
+        )}
       </GridWrapper>
     </Layout>
   );
@@ -35,7 +38,7 @@ function IndexPage({ data }) {
 
 export const query = graphql`
   query StashesQuery {
-    allContentfulStash(limit: 6, sort: { fields: name }) {
+    allContentfulStash(sort: { fields: name }) {
       edges {
         node {
           name
