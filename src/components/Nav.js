@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
+import { Link, StaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 
 const NavBar = styled.nav`
@@ -38,6 +38,7 @@ function Nav() {
             edges {
               node {
                 name
+                slug
                 shortDescription {
                   shortDescription
                 }
@@ -50,10 +51,14 @@ function Nav() {
         <NavBar>
           <ul>
             {data.allContentfulCategory.edges.map(category => (
-              <li>
-                {category.node.name}
-                <small>{category.node.shortDescription.shortDescription}</small>
-              </li>
+              <Link to={`/${category.node.slug}`}>
+                <li>
+                  {category.node.name}
+                  <small>
+                    {category.node.shortDescription.shortDescription}
+                  </small>
+                </li>
+              </Link>
             ))}
           </ul>
         </NavBar>
