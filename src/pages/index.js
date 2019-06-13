@@ -12,7 +12,7 @@ function IndexPage({ data }) {
       <SEO title="Home" />
       <PageHeader
         header="UX curated design collections. A hand-picked glossary of theories, tools
-        and principles."
+        and principles"
         description=" Many of us are so used to working on a computer desktop that when it
         comes time to purchase a new computer, we don’t consider other options.
         Today, computer notebooks – which were once called laptops – offer a
