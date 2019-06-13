@@ -26,7 +26,16 @@ function PageHeader(props) {
   return (
     <HeaderWrapper>
       <HeaderText>
-        <h1>{props.header}</h1>
+        <h1>
+          {`${props.header}.`}
+          {!!props.subHeader && (
+            <>
+              <br />
+              {`${props.subHeader}.`}
+            </>
+          )}
+        </h1>
+
         <p>{props.description}</p>
       </HeaderText>
     </HeaderWrapper>
