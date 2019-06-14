@@ -16,6 +16,10 @@ const MainHeader = styled.header`
     grid-area: 1 / 1 / 2 / 2;
     display: flex;
     align-items: center;
+
+    > a {
+      font-weight: bold;
+    }
   }
 
   nav {
@@ -29,7 +33,6 @@ const MainHeader = styled.header`
   a {
     color: ${props => props.theme.offWhite};
     text-decoration: none;
-    font-weight: bold;
   }
 `;
 
