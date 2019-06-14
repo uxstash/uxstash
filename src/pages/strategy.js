@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmut from 'react-helmet';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/Seo';
@@ -9,6 +10,7 @@ import GridWrapper from '../components/styles/GridWrapper';
 function StrategyPage({ data }) {
   return (
     <Layout>
+      <Helmut bodyAttributes={{ class: data.contentfulCategory.slug }} />
       <SEO title="Strategy" />
       <PageHeader
         header={data.contentfulCategory.name}
@@ -17,14 +19,15 @@ function StrategyPage({ data }) {
       />
       <GridWrapper>
         {data.allContentfulStash.edges.map(
-          stash => stash.node.article != null && (
+          stash =>
+            stash.node.article != null && (
               <Card
                 key={stash.node.id}
                 name={stash.node.name}
                 resourceCount={stash.node.article.length}
                 description={stash.node.description.description}
               />
-            ),
+            )
         )}
       </GridWrapper>
     </Layout>
@@ -53,6 +56,7 @@ export const query = graphql`
     }
     contentfulCategory(name: { eq: "Strategy" }) {
       name
+      slug
       shortDescription {
         shortDescription
       }

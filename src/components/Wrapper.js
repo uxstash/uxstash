@@ -26,6 +26,27 @@ ${ModernNormalize}
     background-color: ${props => props.theme.dark};
     font-family: 'Helvetica Neue';
     line-height: 1.2;
+
+    &.strategy {
+      background-color: ${props => props.theme.gunmetal};
+    }
+
+    &.management {
+      background-color: ${props => props.theme.purplishBrown};
+    }
+
+    &.architecture {
+      background-color: ${props => props.theme.purpleBrown};
+    }
+
+    &.development {
+      background-color: ${props => props.theme.brownishPurple};
+    }
+
+    &.design {
+      background-color: ${props => props.theme.lightBurgundy};
+    }
+
   }
 `;
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmut from 'react-helmet';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/Seo';
@@ -9,6 +10,7 @@ import GridWrapper from '../components/styles/GridWrapper';
 function DevelopmentPage({ data }) {
   return (
     <Layout>
+      <Helmut bodyAttributes={{ class: data.contentfulCategory.slug }} />
       <SEO title="Development" />
       <PageHeader
         header={data.contentfulCategory.name}
@@ -53,6 +55,7 @@ export const query = graphql`
     }
     contentfulCategory(name: { eq: "Development" }) {
       name
+      slug
       shortDescription {
         shortDescription
       }
