@@ -34,7 +34,7 @@ function Nav() {
     <StaticQuery
       query={graphql`
         query NavQuery {
-          allContentfulCategory {
+          allContentfulCategory(sort: { fields: order }) {
             edges {
               node {
                 name
