@@ -1,24 +1,58 @@
 import React from 'react';
 import { Link, StaticQuery, graphql } from 'gatsby';
+import { OutboundLink } from 'gatsby-plugin-google-gtag';
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faTwitter,
+  faGithub,
+  faMediumM,
+} from '@fortawesome/free-brands-svg-icons';
 
 const MainFooter = styled.footer`
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 20px;
+  margin-bottom: 60px;
 `;
 
 const About = styled.div`
   grid-area: 1 / 1/ 2/ 4;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    margin-top: 0;
+  }
+`;
+
+const SocialLinks = styled.div`
+  display: flex;
+  height: 32px;
+  margin-top: auto;
+
+  a {
+    color: ${props => props.theme.offWhite};
+    opacity: 0.5;
+    margin-right: 10px;
+  }
 `;
 
 const LastUpdates = styled.div`
   grid-area: 1 / 5 / 2 / 7;
 
+  dl {
+    margin-bottom: 0;
+  }
+
   dd {
     opacity: 0.5;
     margin-left: 0;
     margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 `;
 
@@ -54,6 +88,29 @@ function Footer() {
               line at info@uxstash.io. Feedback is always welcome and much
               appreciated.
             </p>
+            <SocialLinks>
+              <OutboundLink
+                href="https://twitter.com/ux_stash"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon size="2x" icon={faTwitter} />
+              </OutboundLink>
+              <OutboundLink
+                href="https://github.com/uxstash"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon size="2x" icon={faGithub} />
+              </OutboundLink>
+              <OutboundLink
+                href="https://medium.com/@ux_stash"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon size="2x" icon={faMediumM} />
+              </OutboundLink>
+            </SocialLinks>
           </About>
           <LastUpdates>
             <h4>Last Updates</h4>
