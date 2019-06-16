@@ -9,6 +9,10 @@ const CardWrapper = styled.div`
     margin-bottom: 0;
   }
 
+  hr {
+    margin: 20px 0;
+  }
+
   small,
   p {
     opacity: 0.5;
@@ -18,10 +22,16 @@ const CardWrapper = styled.div`
     font-size: 0.625rem;
     text-transform: uppercase;
   }
+`;
+
+const CardDescription = styled.div`
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 
   p {
-    font-size: 0.875rem;
-    line-height: 1.29;
+    margin: 0;
   }
 `;
 
@@ -31,7 +41,9 @@ function Card(props) {
       <h3>{props.name}</h3>
       <small>{`${props.resourceCount} resources`}</small>
       <hr />
-      <p>{props.description}</p>
+      <CardDescription>
+        <p>{props.description}</p>
+      </CardDescription>
     </CardWrapper>
   );
 }
