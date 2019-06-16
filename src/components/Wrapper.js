@@ -25,7 +25,7 @@ ${ModernNormalize}
     color: ${props => props.theme.offWhite};
     background-color: ${props => props.theme.dark};
     font-family: 'Helvetica Neue';
-    line-height: 1.2;
+    line-height: 1.29;
 
     &.strategy {
       background-color: ${props => props.theme.gunmetal};
@@ -46,7 +46,18 @@ ${ModernNormalize}
     &.design {
       background-color: ${props => props.theme.lightBurgundy};
     }
+  }
 
+  h4 {
+    font-size: 0.625rem;
+    opacity: 0.5;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  p, dl {
+    font-size: 0.875rem;
   }
 `;
 
