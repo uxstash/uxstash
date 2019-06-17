@@ -9,11 +9,19 @@ const path = require('path');
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   return new Promise((resolve, reject) => {
-    const template = path.resolve('src/templates/stash.js');
+    const StashTemplate = path.resolve('src/templates/stash.js');
+    const CategoryTemplate = path.resolve('src/templates/category.js');
     resolve(
       graphql(`
         {
           allContentfulStash(filter: { slug: { ne: null } }) {
+            edges {
+              node {
+                slug
+              }
+            }
+          }
+          allContentfulCategory {
             edges {
               node {
                 slug
@@ -28,9 +36,18 @@ exports.createPages = ({ graphql, actions }) => {
         result.data.allContentfulStash.edges.forEach((stash) => {
           createPage({
             path: `stash/${stash.node.slug}`,
-            component: template,
+            component: StashTemplate,
             context: {
               slug: stash.node.slug,
+            },
+          });
+        });
+        result.data.allContentfulCategory.edges.forEach((category) => {
+          createPage({
+            path: category.node.slug,
+            component: CategoryTemplate,
+            context: {
+              slug: category.node.slug,
             },
           });
         });
