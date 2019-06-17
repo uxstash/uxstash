@@ -5,6 +5,7 @@ import ModernNormalize from 'modern-normalize';
 
 const theme = {
   offWhite: '#fffae1',
+  offWhite10: 'rgba(255, 250, 225, 0.1)',
   gunmetal: '#4b5f5f',
   steel: '#818488',
   purpleBrown: '#643741',
@@ -56,7 +57,7 @@ ${ModernNormalize}
     margin-bottom: 30px;
   }
 
-  p, dl {
+  p, dl, table {
     font-size: 0.875rem;
   }
 
