@@ -34,6 +34,7 @@ export const query = graphql`
       }
       article {
         title
+        id
         source {
           name
           url

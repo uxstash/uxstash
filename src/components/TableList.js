@@ -30,7 +30,7 @@ function TableList(props) {
       </thead>
       <tbody>
         {props.tableData.map(article => (
-          <tr>
+          <tr key={article.id}>
             <td>
               <OutboundLink
                 href={article.url}
