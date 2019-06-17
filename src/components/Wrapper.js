@@ -59,6 +59,15 @@ ${ModernNormalize}
   p, dl {
     font-size: 0.875rem;
   }
+
+  a {
+    text-decoration: none;
+    color: ${props => props.theme.offWhite}
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
 `;
 
 const Container = styled.div`
