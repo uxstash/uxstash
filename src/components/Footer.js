@@ -49,10 +49,10 @@ const LastUpdates = styled.div`
     opacity: 0.5;
     margin-left: 0;
     margin-bottom: 30px;
+  }
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+  span:last-child dd {
+    margin-bottom: 0;
   }
 `;
 
@@ -68,9 +68,11 @@ function Footer() {
             edges {
               node {
                 title
+                id
                 createdAt
                 stash {
                   name
+                  id
                 }
               }
             }
@@ -116,10 +118,10 @@ function Footer() {
             <h4>Last Updates</h4>
             <dl>
               {data.allContentfulArticle.edges.map(article => (
-                <>
+                <span key={article.node.id}>
                   <dt>{article.node.title}</dt>
                   <dd>{article.node.stash.name}</dd>
-                </>
+                </span>
               ))}
             </dl>
           </LastUpdates>
