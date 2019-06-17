@@ -14,7 +14,9 @@ exports.createPages = ({ graphql, actions }) => {
     resolve(
       graphql(`
         {
-          allContentfulStash(filter: { slug: { ne: null } }) {
+          allContentfulStash(
+            filter: { article: { elemMatch: { id: { ne: null } } } }
+          ) {
             edges {
               node {
                 slug
