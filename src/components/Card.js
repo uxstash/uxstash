@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 const CardWrapper = styled.div`
@@ -38,7 +39,9 @@ const CardDescription = styled.div`
 function Card(props) {
   return (
     <CardWrapper>
-      <h3>{props.name}</h3>
+      <h3>
+        <Link to={props.slug}>{props.name}</Link>
+      </h3>
       <small>{`${props.resourceCount} resources`}</small>
       <hr />
       <CardDescription>

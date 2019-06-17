@@ -21,15 +21,15 @@ function IndexPage({ data }) {
       />
       <GridWrapper>
         {data.allContentfulStash.edges.map(
-          stash =>
-            stash.node.article != null && (
+          stash => stash.node.article != null && (
               <Card
                 key={stash.node.id}
                 name={stash.node.name}
+                slug={stash.node.slug}
                 resourceCount={stash.node.article.length}
                 description={stash.node.description.description}
               />
-            )
+            ),
         )}
       </GridWrapper>
     </Layout>
@@ -43,6 +43,7 @@ export const query = graphql`
         node {
           name
           id
+          slug
           description {
             description
           }
