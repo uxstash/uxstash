@@ -40,7 +40,7 @@ function Card(props) {
   return (
     <CardWrapper>
       <h3>
-        <Link to={`stash/${props.slug}`}>{props.name}</Link>
+        <Link to={`/stash/${props.slug}`}>{props.name}</Link>
       </h3>
       <small>{`${props.resourceCount} resources`}</small>
       <hr />
