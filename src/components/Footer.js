@@ -28,6 +28,7 @@ const About = styled.div`
 
 const SocialLinks = styled.div`
   display: flex;
+  align-items: flex-end;
   height: 32px;
   margin-top: auto;
 
@@ -112,6 +113,7 @@ function Footer() {
               >
                 <FontAwesomeIcon size="2x" icon={faMediumM} />
               </OutboundLink>
+              <Link to="/colophon">Colophon</Link>
             </SocialLinks>
           </About>
           <LastUpdates>
