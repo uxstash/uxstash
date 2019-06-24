@@ -16,7 +16,7 @@ export default ({ data }) => (
       description={data.contentfulStash.description.description}
       linkBack={data.contentfulStash.category.slug}
     />
-    <TableList tableData={data.contentfulStash.article} />
+    <TableList tableData={data.allContentfulArticle.edges} />
   </Layout>
 );
 
@@ -32,15 +32,22 @@ export const query = graphql`
       description {
         description
       }
-      article {
-        title
-        id
-        source {
-          name
+    }
+    allContentfulArticle(
+      filter: { stash: { slug: { eq: $slug } } }
+      sort: { fields: date, order: DESC }
+    ) {
+      edges {
+        node {
+          title
+          id
+          source {
+            name
+            url
+          }
+          date(formatString: "MMMM Do, YYYY")
           url
         }
-        url
-        date(locale: "")
       }
     }
   }

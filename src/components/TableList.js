@@ -30,26 +30,26 @@ function TableList(props) {
       </thead>
       <tbody>
         {props.tableData.map(article => (
-          <tr key={article.id}>
+          <tr key={article.node.id}>
             <td>
               <OutboundLink
-                href={article.url}
+                href={article.node.url}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {article.title}
+                {article.node.title}
               </OutboundLink>
             </td>
             <td>
               <OutboundLink
-                href={article.source.url}
+                href={article.node.source.url}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {article.source.name}
+                {article.node.source.name}
               </OutboundLink>
             </td>
-            <td>{article.date}</td>
+            <td>{article.node.date}</td>
           </tr>
         ))}
       </tbody>
