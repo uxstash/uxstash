@@ -19,6 +19,13 @@ const NavBar = styled.nav`
   }
 
   li {
+    padding-bottom: 18px;
+  }
+
+  .active-nav {
+    li {
+      border-bottom: solid 1px ${props => props.theme.offWhite};
+    }
   }
 
   small {
@@ -55,7 +62,11 @@ function Nav() {
         <NavBar>
           <ul>
             {data.allContentfulCategory.edges.map(category => (
-              <Link to={`/${category.node.slug}`} key={category.node.id}>
+              <Link
+                activeClassName="active-nav"
+                to={`/${category.node.slug}`}
+                key={category.node.id}
+              >
                 <li>
                   {category.node.name}
                   <small>
