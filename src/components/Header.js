@@ -7,13 +7,17 @@ import logo from '../images/ux_stash.svg';
 
 const MainHeader = styled.header`
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  @media (min-width: ${props => props.theme.md}) {
+    grid-template-columns: repeat(6, 1fr);
+  }
   grid-column-gap: 20px;
   margin-bottom: 94px;
   padding-top: 45px;
 
   .site-logo {
-    grid-area: 1 / 1 / 2 / 2;
+    @media (min-width: ${props => props.theme.md}) {
+      grid-area: 1 / 1 / 2 / 2;
+    }
     display: flex;
     align-items: center;
 
@@ -23,7 +27,10 @@ const MainHeader = styled.header`
   }
 
   nav {
-    grid-area: 1 / 2 / 2 / 7;
+    grid-area: 1 / 2 / 2 / 3;
+    @media (min-width: ${props => props.theme.md}) {
+      grid-area: 1 / 2 / 2 / 7;
+    }
   }
 
   object {

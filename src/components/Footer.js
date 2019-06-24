@@ -17,7 +17,9 @@ const MainFooter = styled.footer`
 `;
 
 const About = styled.div`
-  grid-area: 1 / 1/ 2/ 4;
+  @media (min-width: ${props => props.theme.md}) {
+    grid-area: 1 / 1/ 2/ 4;
+  }
   display: flex;
   flex-direction: column;
 
@@ -40,7 +42,9 @@ const SocialLinks = styled.div`
 `;
 
 const LastUpdates = styled.div`
-  grid-area: 1 / 5 / 2 / 7;
+  @media (min-width: ${props => props.theme.md}) {
+    grid-area: 1 / 5 / 2 / 7;
+  }
 
   dl {
     margin-bottom: 0;

@@ -7,8 +7,11 @@ const NavBar = styled.nav`
   ul {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 20px;
+    @media (min-width: ${props => props.theme.md}) {
+      grid-template-columns: repeat(5, 1fr);
+      grid-column-gap: 20px;
+    }
+    grid-row-gap: 20px;
     align-items: center;
     padding-left: 0;
     margin: 0;
