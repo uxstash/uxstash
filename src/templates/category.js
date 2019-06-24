@@ -17,17 +17,16 @@ export default ({ data }) => (
       description={data.contentfulCategory.description.description}
     />
     <GridWrapper>
-      {data.contentfulCategory.stash.map(
-        stash =>
-          stash.article != null && (
+      {data.allContentfulStash.edges.map(
+        stash => stash.node.article != null && (
             <Card
-              key={stash.id}
-              name={stash.name}
-              slug={stash.slug}
-              resourceCount={stash.article.length}
-              description={stash.description.description}
+              key={stash.node.id}
+              name={stash.node.name}
+              slug={stash.node.slug}
+              resourceCount={stash.node.article.length}
+              description={stash.node.description.description}
             />
-          )
+          ),
       )}
     </GridWrapper>
   </Layout>
@@ -44,15 +43,22 @@ export const query = graphql`
       description {
         description
       }
-      stash {
-        name
-        slug
-        description {
-          description
-        }
-        id
-        article {
+    }
+    allContentfulStash(
+      filter: { category: { slug: { eq: $slug } } }
+      sort: { fields: name }
+    ) {
+      edges {
+        node {
+          name
+          slug
+          description {
+            description
+          }
           id
+          article {
+            id
+          }
         }
       }
     }
