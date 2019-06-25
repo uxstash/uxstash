@@ -1,7 +1,0 @@
-{
-  "name": "uxstash_github_io",
-  "dependencies": {
-    "jquery": "~1.12.0",
-    "Materialize": "materialize#^0.97.5"
-  }
-}
