@@ -64,7 +64,7 @@ function Nav() {
             {data.allContentfulCategory.edges.map(category => (
               <Link
                 activeClassName="active-nav"
-                to={`/${category.node.slug}`}
+                to={`/category/${category.node.slug}`}
                 key={category.node.id}
               >
                 <li>

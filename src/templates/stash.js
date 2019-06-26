@@ -9,7 +9,10 @@ import TableList from '../components/TableList';
 export default ({ data }) => (
   <Layout>
     <Helmut bodyAttributes={{ class: data.contentfulStash.category.slug }} />
-    <SEO title={data.contentfulStash.name} />
+    <SEO
+      title={data.contentfulStash.name}
+      description={data.contentfulStash.description.description}
+    />
     <PageHeader
       header={data.contentfulStash.category.name}
       subHeader={data.contentfulStash.name}

@@ -26,9 +26,11 @@ module.exports = {
     description:
       'A hand-picked glossary of theories, tools, and principles. Curated by Alex Kale and Leandro Incetta.',
     author: '@ux_stash',
+    siteUrl: 'https://www.uxstash.io',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-hotjar',
       options: {

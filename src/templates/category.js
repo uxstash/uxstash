@@ -10,7 +10,10 @@ import Card from '../components/Card';
 export default ({ data }) => (
   <Layout>
     <Helmut bodyAttributes={{ class: data.contentfulCategory.slug }} />
-    <SEO title="Design" />
+    <SEO
+      title={data.contentfulCategory.name}
+      description={data.contentfulCategory.description.description}
+    />
     <PageHeader
       header={data.contentfulCategory.name}
       subHeader={data.contentfulCategory.shortDescription.shortDescription}
@@ -18,15 +21,17 @@ export default ({ data }) => (
     />
     <GridWrapper>
       {data.allContentfulStash.edges.map(
-        stash => stash.node.article != null && (
+        stash =>
+          stash.node.article != null && (
             <Card
               key={stash.node.id}
               name={stash.node.name}
               slug={stash.node.slug}
+              category={stash.node.category.slug}
               resourceCount={stash.node.article.length}
               description={stash.node.description.description}
             />
-          ),
+          )
       )}
     </GridWrapper>
   </Layout>
@@ -58,6 +63,9 @@ export const query = graphql`
           id
           article {
             id
+          }
+          category {
+            slug
           }
         }
       }
