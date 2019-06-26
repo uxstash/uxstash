@@ -10,7 +10,10 @@ import Card from '../components/Card';
 export default ({ data }) => (
   <Layout>
     <Helmut bodyAttributes={{ class: data.contentfulCategory.slug }} />
-    <SEO title="Design" />
+    <SEO
+      title={data.contentfulCategory.name}
+      description={data.contentfulCategory.description.description}
+    />
     <PageHeader
       header={data.contentfulCategory.name}
       subHeader={data.contentfulCategory.shortDescription.shortDescription}
