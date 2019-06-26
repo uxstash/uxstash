@@ -18,15 +18,17 @@ export default ({ data }) => (
     />
     <GridWrapper>
       {data.allContentfulStash.edges.map(
-        stash => stash.node.article != null && (
+        stash =>
+          stash.node.article != null && (
             <Card
               key={stash.node.id}
               name={stash.node.name}
               slug={stash.node.slug}
+              category={stash.node.category.slug}
               resourceCount={stash.node.article.length}
               description={stash.node.description.description}
             />
-          ),
+          )
       )}
     </GridWrapper>
   </Layout>
@@ -58,6 +60,9 @@ export const query = graphql`
           id
           article {
             id
+          }
+          category {
+            slug
           }
         }
       }

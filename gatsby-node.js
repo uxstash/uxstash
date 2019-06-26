@@ -20,6 +20,9 @@ exports.createPages = ({ graphql, actions }) => {
             edges {
               node {
                 slug
+                category {
+                  slug
+                }
               }
             }
           }
@@ -37,7 +40,9 @@ exports.createPages = ({ graphql, actions }) => {
         }
         result.data.allContentfulStash.edges.forEach((stash) => {
           createPage({
-            path: `stash/${stash.node.slug}`,
+            path: `/category/${stash.node.category.slug}/stash/${
+              stash.node.slug
+            }`,
             component: StashTemplate,
             context: {
               slug: stash.node.slug,
@@ -46,7 +51,7 @@ exports.createPages = ({ graphql, actions }) => {
         });
         result.data.allContentfulCategory.edges.forEach((category) => {
           createPage({
-            path: category.node.slug,
+            path: `category/${category.node.slug}`,
             component: CategoryTemplate,
             context: {
               slug: category.node.slug,
