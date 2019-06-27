@@ -20,6 +20,7 @@ function IndexPage({ data }) {
             key={stash.node.id}
             name={stash.node.name}
             slug={stash.node.slug}
+            category={stash.node.category.slug}
             resourceCount={stash.node.article.length}
             description={stash.node.description.description}
           />
@@ -52,6 +53,9 @@ export const query = graphql`
           }
           article {
             id
+          }
+          category {
+            slug
           }
         }
       }
