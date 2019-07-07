@@ -1,0 +1,10 @@
+# Redirects from what the browser requests to what we serve
+/strategy         /category/strategy
+/management       /category/management
+/architecture     /category/architecture
+/development      /category/development
+/design           /category/design
+
+/stashes/foggs_behavior_model/      /category/strategy/stash/foggs-behavior-model
+/stashes/flexibility_usability_tradeoff/      /category/management/stash/flexibility-usability-tradeoff
+/stashes/ecosystem_map/       /category/strategy/stash/ecosystem-map
