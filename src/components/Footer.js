@@ -78,6 +78,10 @@ function Footer() {
                 stash {
                   name
                   id
+                  slug
+                  category {
+                    slug
+                  }
                 }
               }
             }
@@ -117,7 +121,7 @@ function Footer() {
               >
                 <FontAwesomeIcon size="2x" icon={faMediumM} />
               </OutboundLink>
-              <Link to="/colophon">Colophon</Link>
+              <Link to="/colophon/">Colophon</Link>
             </SocialLinks>
           </About>
           <LastUpdates>
@@ -126,7 +130,15 @@ function Footer() {
               {data.allContentfulArticle.edges.map(article => (
                 <span key={article.node.id}>
                   <dt>{article.node.title}</dt>
-                  <dd>{article.node.stash.name}</dd>
+                  <dd>
+                    <Link
+                      to={`/category/${
+                        article.node.stash.category.slug
+                      }/stash/${article.node.stash.slug}/`}
+                    >
+                      {article.node.stash.name}
+                    </Link>
+                  </dd>
                 </span>
               ))}
             </dl>
