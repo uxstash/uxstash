@@ -40,7 +40,7 @@ function Card(props) {
   return (
     <CardWrapper>
       <h3>
-        <Link to={`/category/${props.category}/stash/${props.slug}`}>
+        <Link to={`/category/${props.category}/stash/${props.slug}/`}>
           {props.name}
         </Link>
       </h3>
