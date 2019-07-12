@@ -32,7 +32,7 @@ function PageHeader(props) {
       <HeaderText>
         <h1>
           {props.linkBack ? (
-            <Link to={props.linkBack}>
+            <Link to={`category/${props.linkBack}/`}>
               <FontAwesomeIcon icon={faLongArrowAltLeft} />
               {` ${props.header}.`}
             </Link>
