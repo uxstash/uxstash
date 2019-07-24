@@ -97,14 +97,14 @@ module.exports = {
         icon: 'src/images/ux_stash.svg', // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        typekit: {
-          id: 'ywl3qgt',
-        },
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-web-font-loader',
+    //   options: {
+    //     typekit: {
+    //       id: 'ywl3qgt',
+    //     },
+    //   },
+    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
